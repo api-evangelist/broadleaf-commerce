@@ -1,0 +1,4029 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Broadleaf Commerce API",
+        "description": "The default Broadleaf Commerce APIs",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsdemo.broadleafcommerce.org\/api\/v1"
+    ],
+    "paths": {
+        "\/auditevents": {
+            "get": {
+                "summary": "Get Auditevents",
+                "description": "Get auditevents.",
+                "operationId": "GetAuditevents",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "principal",
+                        "in": "query",
+                        "description": "principal"
+                    },
+                    {
+                        "name": "after",
+                        "in": "query",
+                        "description": "after"
+                    },
+                    {
+                        "name": "type",
+                        "in": "query",
+                        "description": "type"
+                    }
+                ]
+            }
+        },
+        "\/auditevents.json": {
+            "get": {
+                "summary": "Get Auditevents",
+                "description": "Get auditevents.",
+                "operationId": "GetAuditeventsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "principal",
+                        "in": "query",
+                        "description": "principal"
+                    },
+                    {
+                        "name": "after",
+                        "in": "query",
+                        "description": "after"
+                    },
+                    {
+                        "name": "type",
+                        "in": "query",
+                        "description": "type"
+                    }
+                ]
+            }
+        },
+        "\/autoconfig": {
+            "get": {
+                "summary": "Get Autoconfig",
+                "description": "Get autoconfig.",
+                "operationId": "GetAutoconfig",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/autoconfig.json": {
+            "get": {
+                "summary": "Get Autoconfig",
+                "description": "Get autoconfig.",
+                "operationId": "GetAutoconfigJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/beans": {
+            "get": {
+                "summary": "Get Beans",
+                "description": "Get beans.",
+                "operationId": "GetBeans",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/beans.json": {
+            "get": {
+                "summary": "Get Beans",
+                "description": "Get beans.",
+                "operationId": "GetBeansJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/cart": {
+            "get": {
+                "summary": "Get Cart",
+                "description": "Get cart.",
+                "operationId": "GetCart",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Cart",
+                "description": "Post cart.",
+                "operationId": "PostCart",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/cart\/checkout": {
+            "post": {
+                "summary": "Post Cart Checkout",
+                "description": "Post cart checkout.",
+                "operationId": "PostCartCheckout",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cartId",
+                        "in": "query",
+                        "description": "cartId"
+                    }
+                ]
+            }
+        },
+        "\/cart\/checkout\/payment": {
+            "post": {
+                "summary": "Post Cart Checkout Payment",
+                "description": "Post cart checkout payment.",
+                "operationId": "PostCartCheckoutPayment",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "wrapper",
+                        "in": "body",
+                        "description": "wrapper"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "query",
+                        "description": "cartId"
+                    }
+                ]
+            }
+        },
+        "\/cart\/checkout\/payment\/{customerPaymentId}": {
+            "post": {
+                "summary": "Post Cart Checkout Payment Customerpaymentid",
+                "description": "Post cart checkout payment customerpaymentid.",
+                "operationId": "PostCartCheckoutPaymentCustomerpayment",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "amount",
+                        "in": "query",
+                        "description": "amount"
+                    },
+                    {
+                        "name": "currency",
+                        "in": "query",
+                        "description": "currency"
+                    },
+                    {
+                        "name": "customerPaymentId",
+                        "in": "path",
+                        "description": "customerPaymentId"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "query",
+                        "description": "cartId"
+                    }
+                ]
+            }
+        },
+        "\/cart\/checkout\/payment\/{paymentId}": {
+            "delete": {
+                "summary": "Delete Cart Checkout Payment Paymentid",
+                "description": "Delete cart checkout payment paymentid.",
+                "operationId": "DeleteCartCheckoutPaymentPayment",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "paymentId",
+                        "in": "path",
+                        "description": "paymentId"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "query",
+                        "description": "cartId"
+                    }
+                ]
+            }
+        },
+        "\/cart\/checkout\/payment\/{paymentId}\/transaction": {
+            "put": {
+                "summary": "Put Cart Checkout Payment Paymentid Transaction",
+                "description": "Put cart checkout payment paymentid transaction.",
+                "operationId": "PutCartCheckoutPaymentPaymentTransaction",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "paymentId",
+                        "in": "path",
+                        "description": "paymentId"
+                    },
+                    {
+                        "name": "wrapper",
+                        "in": "body",
+                        "description": "wrapper"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "query",
+                        "description": "cartId"
+                    }
+                ]
+            }
+        },
+        "\/cart\/checkout\/payments": {
+            "get": {
+                "summary": "Get Cart Checkout Payments",
+                "description": "Get cart checkout payments.",
+                "operationId": "GetCartCheckoutPayments",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cartId",
+                        "in": "query",
+                        "description": "cartId"
+                    }
+                ]
+            }
+        },
+        "\/cart\/{cartId}": {
+            "get": {
+                "summary": "Get Cart",
+                "description": "Get cart.",
+                "operationId": "GetCartCart",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/cart\/{cartId}\/attributes": {
+            "put": {
+                "summary": "Put Cart Attributes",
+                "description": "Put cart attributes.",
+                "operationId": "PutCartCartAttributes",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "requestParams",
+                        "in": "body",
+                        "description": "requestParams"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    },
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Cart Attributes",
+                "description": "Delete cart attributes.",
+                "operationId": "DeleteCartCartAttributes",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "requestParams",
+                        "in": "body",
+                        "description": "requestParams"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    },
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/cart\/{cartId}\/item": {
+            "post": {
+                "summary": "Post Cart Item",
+                "description": "Post cart item.",
+                "operationId": "PostCartCartItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    },
+                    {
+                        "name": "orderItemWrapper",
+                        "in": "body",
+                        "description": "orderItemWrapper"
+                    },
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/cart\/{cartId}\/item\/{itemId}\/attributes": {
+            "put": {
+                "summary": "Put Cart Item Attributes",
+                "description": "Put cart item attributes.",
+                "operationId": "PutCartCartItemItemAttributes",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "requestParams",
+                        "in": "body",
+                        "description": "requestParams"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    },
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    },
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Cart Item Attributes",
+                "description": "Delete cart item attributes.",
+                "operationId": "DeleteCartCartItemItemAttributes",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "requestParams",
+                        "in": "body",
+                        "description": "requestParams"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    },
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    },
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/cart\/{cartId}\/items\/{itemId}": {
+            "put": {
+                "summary": "Put Cart Items",
+                "description": "Put cart items.",
+                "operationId": "PutCartCartItemsItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    },
+                    {
+                        "name": "quantity",
+                        "in": "query",
+                        "description": "quantity"
+                    },
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Cart Items",
+                "description": "Delete cart items.",
+                "operationId": "DeleteCartCartItemsItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    },
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/cart\/{cartId}\/offer\/{promoCode}": {
+            "post": {
+                "summary": "Post Cart Offer Promocode",
+                "description": "Post cart offer promocode.",
+                "operationId": "PostCartCartOfferPromocode",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "promoCode",
+                        "in": "path",
+                        "description": "promoCode"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    },
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Cart Offer Promocode",
+                "description": "Delete cart offer promocode.",
+                "operationId": "DeleteCartCartOfferPromocode",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "promoCode",
+                        "in": "path",
+                        "description": "promoCode"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    },
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/cart\/{cartId}\/offers": {
+            "delete": {
+                "summary": "Delete Cart Offers",
+                "description": "Delete cart offers.",
+                "operationId": "DeleteCartCartOffers",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    },
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/catalog\/categories": {
+            "get": {
+                "summary": "Get Catalog Categories",
+                "description": "Get catalog categories.",
+                "operationId": "GetCatalogCategories",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "description": "name"
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "offset"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/category": {
+            "get": {
+                "summary": "Get Catalog Category",
+                "description": "Get catalog category.",
+                "operationId": "GetCatalogCategory",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "searchParameter",
+                        "in": "query",
+                        "description": "searchParameter"
+                    },
+                    {
+                        "name": "productLimit",
+                        "in": "query",
+                        "description": "productLimit"
+                    },
+                    {
+                        "name": "productOffset",
+                        "in": "query",
+                        "description": "productOffset"
+                    },
+                    {
+                        "name": "subcategoryLimit",
+                        "in": "query",
+                        "description": "subcategoryLimit"
+                    },
+                    {
+                        "name": "subcategoryOffset",
+                        "in": "query",
+                        "description": "subcategoryOffset"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/category\/{categoryId}": {
+            "get": {
+                "summary": "Get Catalog Category",
+                "description": "Get catalog category.",
+                "operationId": "GetCatalogCategoryCategory",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "categoryId",
+                        "in": "path",
+                        "description": "categoryId"
+                    },
+                    {
+                        "name": "productLimit",
+                        "in": "query",
+                        "description": "productLimit"
+                    },
+                    {
+                        "name": "productOffset",
+                        "in": "query",
+                        "description": "productOffset"
+                    },
+                    {
+                        "name": "subcategoryLimit",
+                        "in": "query",
+                        "description": "subcategoryLimit"
+                    },
+                    {
+                        "name": "subcategoryOffset",
+                        "in": "query",
+                        "description": "subcategoryOffset"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/category\/{categoryId}\/activeSubcategories": {
+            "get": {
+                "summary": "Get Catalog Category Active Subcategories",
+                "description": "Get catalog category active subcategories.",
+                "operationId": "GetCatalogCategoryCategoryActivesubcategories",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "categoryId",
+                        "in": "path",
+                        "description": "categoryId"
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "offset"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/category\/{categoryId}\/attributes": {
+            "get": {
+                "summary": "Get Catalog Category Attributes",
+                "description": "Get catalog category attributes.",
+                "operationId": "GetCatalogCategoryCategoryAttributes",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "categoryId",
+                        "in": "path",
+                        "description": "categoryId"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/category\/{categoryId}\/categories": {
+            "get": {
+                "summary": "Get Catalog Category Categories",
+                "description": "Get catalog category categories.",
+                "operationId": "GetCatalogCategoryCategoryCategories",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "categoryId",
+                        "in": "path",
+                        "description": "categoryId"
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "offset"
+                    },
+                    {
+                        "name": "active",
+                        "in": "query",
+                        "description": "active"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/category\/{id}\/media": {
+            "get": {
+                "summary": "Get Catalog Category Media",
+                "description": "Get catalog category media.",
+                "operationId": "GetCatalogCategoryMedia",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/product\/{id}": {
+            "get": {
+                "summary": "Get Catalog Product",
+                "description": "Get catalog product.",
+                "operationId": "GetCatalogProduct",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id"
+                    },
+                    {
+                        "name": "includePromotionMessages",
+                        "in": "query",
+                        "description": "includePromotionMessages"
+                    },
+                    {
+                        "name": "includePriceData",
+                        "in": "query",
+                        "description": "includePriceData"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/product\/{productId}\/attributes": {
+            "get": {
+                "summary": "Get Catalog Product Attributes",
+                "description": "Get catalog product attributes.",
+                "operationId": "GetCatalogProductProductAttributes",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "productId",
+                        "in": "path",
+                        "description": "productId"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/product\/{productId}\/categories": {
+            "get": {
+                "summary": "Get Catalog Product Categories",
+                "description": "Get catalog product categories.",
+                "operationId": "GetCatalogProductProductCategories",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "productId",
+                        "in": "path",
+                        "description": "productId"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/product\/{productId}\/crosssale": {
+            "get": {
+                "summary": "Get Catalog Product Crosssale",
+                "description": "Get catalog product crosssale.",
+                "operationId": "GetCatalogProductProductCrosssale",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "productId",
+                        "in": "path",
+                        "description": "productId"
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "offset"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/product\/{productId}\/defaultSku": {
+            "get": {
+                "summary": "Get Catalog Product Default sku",
+                "description": "Get catalog product default sku.",
+                "operationId": "GetCatalogProductProductDefaultsku",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "productId",
+                        "in": "path",
+                        "description": "productId"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/product\/{productId}\/media": {
+            "get": {
+                "summary": "Get Catalog Product Media",
+                "description": "Get catalog product media.",
+                "operationId": "GetCatalogProductProductMedia",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "productId",
+                        "in": "path",
+                        "description": "productId"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/product\/{productId}\/skus": {
+            "get": {
+                "summary": "Get Catalog Product Skus",
+                "description": "Get catalog product skus.",
+                "operationId": "GetCatalogProductProductSkus",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "productId",
+                        "in": "path",
+                        "description": "productId"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/product\/{productId}\/upsale": {
+            "get": {
+                "summary": "Get Catalog Product Upsale",
+                "description": "Get catalog product upsale.",
+                "operationId": "GetCatalogProductProductUpsale",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "productId",
+                        "in": "path",
+                        "description": "productId"
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "offset"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/search": {
+            "get": {
+                "summary": "Get Catalog Search",
+                "description": "Get catalog search.",
+                "operationId": "GetCatalogSearch",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "q",
+                        "in": "query",
+                        "description": "q"
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "query",
+                        "description": "pageSize"
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "page"
+                    },
+                    {
+                        "name": "includePromotionMessages",
+                        "in": "query",
+                        "description": "includePromotionMessages"
+                    },
+                    {
+                        "name": "includePriceData",
+                        "in": "query",
+                        "description": "includePriceData"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/search\/category\/{categoryId}": {
+            "get": {
+                "summary": "Get Catalog Search Category",
+                "description": "Get catalog search category.",
+                "operationId": "GetCatalogSearchCategoryCategory",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "categoryId",
+                        "in": "path",
+                        "description": "categoryId"
+                    },
+                    {
+                        "name": "q",
+                        "in": "query",
+                        "description": "q"
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "query",
+                        "description": "pageSize"
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "page"
+                    },
+                    {
+                        "name": "includePromotionMessages",
+                        "in": "query",
+                        "description": "includePromotionMessages"
+                    },
+                    {
+                        "name": "includePriceData",
+                        "in": "query",
+                        "description": "includePriceData"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/sku\/inventory": {
+            "get": {
+                "summary": "Get Catalog Sku Inventory",
+                "description": "Get catalog sku inventory.",
+                "operationId": "GetCatalogSkuInventory",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "id"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/sku\/{skuId}": {
+            "get": {
+                "summary": "Get Catalog Sku Skuid",
+                "description": "Get catalog sku skuid.",
+                "operationId": "GetCatalogSkuSku",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "skuId",
+                        "in": "path",
+                        "description": "skuId"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/sku\/{skuId}\/attributes": {
+            "get": {
+                "summary": "Get Catalog Sku Skuid Attributes",
+                "description": "Get catalog sku skuid attributes.",
+                "operationId": "GetCatalogSkuSkuAttributes",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "skuId",
+                        "in": "path",
+                        "description": "skuId"
+                    }
+                ]
+            }
+        },
+        "\/catalog\/sku\/{skuId}\/media": {
+            "get": {
+                "summary": "Get Catalog Sku Skuid Media",
+                "description": "Get catalog sku skuid media.",
+                "operationId": "GetCatalogSkuSkuMedia",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "skuId",
+                        "in": "path",
+                        "description": "skuId"
+                    }
+                ]
+            }
+        },
+        "\/configprops": {
+            "get": {
+                "summary": "Get Configprops",
+                "description": "Get configprops.",
+                "operationId": "GetConfigprops",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/configprops.json": {
+            "get": {
+                "summary": "Get Configprops",
+                "description": "Get configprops.",
+                "operationId": "GetConfigpropsJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/customer": {
+            "get": {
+                "summary": "Get Customer",
+                "description": "Get customer.",
+                "operationId": "GetCustomer",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "email",
+                        "in": "query",
+                        "description": "email"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Customer",
+                "description": "Post customer.",
+                "operationId": "PostCustomer",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "wrapper",
+                        "in": "body",
+                        "description": "wrapper"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Customer",
+                "description": "Put customer.",
+                "operationId": "PutCustomer",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "wrapper",
+                        "in": "body",
+                        "description": "wrapper"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customer\/address": {
+            "get": {
+                "summary": "Get Customer Address",
+                "description": "Get customer address.",
+                "operationId": "GetCustomerAddress",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "addressName",
+                        "in": "query",
+                        "description": "addressName"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Customer Address",
+                "description": "Put customer address.",
+                "operationId": "PutCustomerAddress",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "wrapper",
+                        "in": "body",
+                        "description": "wrapper"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customer\/address\/{addressId}": {
+            "put": {
+                "summary": "Put Customer Address Addressid",
+                "description": "Put customer address addressid.",
+                "operationId": "PutCustomerAddressAddress",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "addressId",
+                        "in": "path",
+                        "description": "addressId"
+                    },
+                    {
+                        "name": "wrapper",
+                        "in": "body",
+                        "description": "wrapper"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customer\/address\/{addressName}": {
+            "delete": {
+                "summary": "Delete Customer Address Addressname",
+                "description": "Delete customer address addressname.",
+                "operationId": "DeleteCustomerAddressAddressname",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "addressName",
+                        "in": "path",
+                        "description": "addressName"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customer\/addresses": {
+            "get": {
+                "summary": "Get Customer Addresses",
+                "description": "Get customer addresses.",
+                "operationId": "GetCustomerAddresses",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Customer Addresses",
+                "description": "Delete customer addresses.",
+                "operationId": "DeleteCustomerAddresses",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customer\/attribute": {
+            "put": {
+                "summary": "Put Customer Attribute",
+                "description": "Put customer attribute.",
+                "operationId": "PutCustomerAttribute",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "wrapper",
+                        "in": "body",
+                        "description": "wrapper"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customer\/attribute\/{attributeName}": {
+            "delete": {
+                "summary": "Delete Customer Attribute Attributename",
+                "description": "Delete customer attribute attributename.",
+                "operationId": "DeleteCustomerAttributeAttributename",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "attributeName",
+                        "in": "path",
+                        "description": "attributeName"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customer\/attributes": {
+            "delete": {
+                "summary": "Delete Customer Attributes",
+                "description": "Delete customer attributes.",
+                "operationId": "DeleteCustomerAttributes",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customer\/password": {
+            "post": {
+                "summary": "Post Customer Password",
+                "description": "Post customer password.",
+                "operationId": "PostCustomerPassword",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "changePasswordForm",
+                        "in": "body",
+                        "description": "changePasswordForm"
+                    }
+                ]
+            }
+        },
+        "\/customer\/payment": {
+            "get": {
+                "summary": "Get Customer Payment",
+                "description": "Get customer payment.",
+                "operationId": "GetCustomerPayment",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "paymentId",
+                        "in": "query",
+                        "description": "paymentId"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Customer Payment",
+                "description": "Post customer payment.",
+                "operationId": "PostCustomerPayment",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "wrapper",
+                        "in": "body",
+                        "description": "wrapper"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customer\/payment\/{paymentId}": {
+            "put": {
+                "summary": "Put Customer Payment Paymentid",
+                "description": "Put customer payment paymentid.",
+                "operationId": "PutCustomerPaymentPayment",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "paymentId",
+                        "in": "path",
+                        "description": "paymentId"
+                    },
+                    {
+                        "name": "wrapper",
+                        "in": "body",
+                        "description": "wrapper"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Customer Payment Paymentid",
+                "description": "Delete customer payment paymentid.",
+                "operationId": "DeleteCustomerPaymentPayment",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "paymentId",
+                        "in": "path",
+                        "description": "paymentId"
+                    },
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/customer\/payments": {
+            "get": {
+                "summary": "Get Customer Payments",
+                "description": "Get customer payments.",
+                "operationId": "GetCustomerPayments",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Customer Payments",
+                "description": "Delete customer payments.",
+                "operationId": "DeleteCustomerPayments",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "customerId",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/docsreload": {
+            "get": {
+                "summary": "Get Docsreload",
+                "description": "Get docsreload.",
+                "operationId": "GetDocsreload",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "head": {
+                "summary": "Head Docsreload",
+                "description": "Head docsreload.",
+                "operationId": "HeadDocsreload",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Docsreload",
+                "description": "Post docsreload.",
+                "operationId": "PostDocsreload",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "put": {
+                "summary": "Put Docsreload",
+                "description": "Put docsreload.",
+                "operationId": "PutDocsreload",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "delete": {
+                "summary": "Delete Docsreload",
+                "description": "Delete docsreload.",
+                "operationId": "DeleteDocsreload",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "options": {
+                "summary": "Options Docsreload",
+                "description": "Options docsreload.",
+                "operationId": "OptionsDocsreload",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "patch": {
+                "summary": "Patch Docsreload",
+                "description": "Patch docsreload.",
+                "operationId": "PatchDocsreload",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/dump": {
+            "get": {
+                "summary": "Get Dump",
+                "description": "Get dump.",
+                "operationId": "GetDump",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/dump.json": {
+            "get": {
+                "summary": "Get Dump",
+                "description": "Get dump.",
+                "operationId": "GetDumpJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/env": {
+            "get": {
+                "summary": "Get Env",
+                "description": "Get env.",
+                "operationId": "GetEnv",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/env.json": {
+            "get": {
+                "summary": "Get Env",
+                "description": "Get env.",
+                "operationId": "GetEnvJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/env\/{name}": {
+            "get": {
+                "summary": "Get Env Name",
+                "description": "Get env name.",
+                "operationId": "GetEnvName",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "path",
+                        "description": "name"
+                    }
+                ]
+            }
+        },
+        "\/error": {
+            "get": {
+                "summary": "Get Error",
+                "description": "Get error.",
+                "operationId": "GetError",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "head": {
+                "summary": "Head Error",
+                "description": "Head error.",
+                "operationId": "HeadError",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Error",
+                "description": "Post error.",
+                "operationId": "PostError",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "put": {
+                "summary": "Put Error",
+                "description": "Put error.",
+                "operationId": "PutError",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "delete": {
+                "summary": "Delete Error",
+                "description": "Delete error.",
+                "operationId": "DeleteError",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "options": {
+                "summary": "Options Error",
+                "description": "Options error.",
+                "operationId": "OptionsError",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "patch": {
+                "summary": "Patch Error",
+                "description": "Patch error.",
+                "operationId": "PatchError",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/health": {
+            "get": {
+                "summary": "Get Health",
+                "description": "Get health.",
+                "operationId": "GetHealth",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/health.json": {
+            "get": {
+                "summary": "Get Health",
+                "description": "Get health.",
+                "operationId": "GetHealthJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/heapdump": {
+            "get": {
+                "summary": "Get Heapdump",
+                "description": "Get heapdump.",
+                "operationId": "GetHeapdump",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "live",
+                        "in": "query",
+                        "description": "live"
+                    }
+                ]
+            }
+        },
+        "\/heapdump.json": {
+            "get": {
+                "summary": "Get Heapdump",
+                "description": "Get heapdump.",
+                "operationId": "GetHeapdumpJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "live",
+                        "in": "query",
+                        "description": "live"
+                    }
+                ]
+            }
+        },
+        "\/info": {
+            "get": {
+                "summary": "Get Info",
+                "description": "Get info.",
+                "operationId": "GetInfo",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/info.json": {
+            "get": {
+                "summary": "Get Info",
+                "description": "Get info.",
+                "operationId": "GetInfoJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/logfile": {
+            "get": {
+                "summary": "Get Logfile",
+                "description": "Get logfile.",
+                "operationId": "GetLogfile",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "head": {
+                "summary": "Head Logfile",
+                "description": "Head logfile.",
+                "operationId": "HeadLogfile",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/logfile.json": {
+            "get": {
+                "summary": "Get Logfile",
+                "description": "Get logfile.",
+                "operationId": "GetLogfileJson",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "head": {
+                "summary": "Head Logfile",
+                "description": "Head logfile.",
+                "operationId": "HeadLogfileJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/loggers": {
+            "get": {
+                "summary": "Get Loggers",
+                "description": "Get loggers.",
+                "operationId": "GetLoggers",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/loggers.json": {
+            "get": {
+                "summary": "Get Loggers",
+                "description": "Get loggers.",
+                "operationId": "GetLoggersJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/loggers\/{name}": {
+            "get": {
+                "summary": "Get Loggers Name",
+                "description": "Get loggers name.",
+                "operationId": "GetLoggersName",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "path",
+                        "description": "name"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Loggers Name",
+                "description": "Post loggers name.",
+                "operationId": "PostLoggersName",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "path",
+                        "description": "name"
+                    },
+                    {
+                        "name": "configuration",
+                        "in": "body",
+                        "description": "configuration"
+                    }
+                ]
+            }
+        },
+        "\/mappings": {
+            "get": {
+                "summary": "Get Mappings",
+                "description": "Get mappings.",
+                "operationId": "GetMappings",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/mappings.json": {
+            "get": {
+                "summary": "Get Mappings",
+                "description": "Get mappings.",
+                "operationId": "GetMappingsJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/metrics": {
+            "get": {
+                "summary": "Get Metrics",
+                "description": "Get metrics.",
+                "operationId": "GetMetrics",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/metrics.json": {
+            "get": {
+                "summary": "Get Metrics",
+                "description": "Get metrics.",
+                "operationId": "GetMetricsJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/metrics\/{name}": {
+            "get": {
+                "summary": "Get Metrics Name",
+                "description": "Get metrics name.",
+                "operationId": "GetMetricsName",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "path",
+                        "description": "name"
+                    }
+                ]
+            }
+        },
+        "\/orders": {
+            "get": {
+                "summary": "Get Orders",
+                "description": "Get orders.",
+                "operationId": "GetOrders",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "orderStatus",
+                        "in": "query",
+                        "description": "orderStatus"
+                    },
+                    {
+                        "name": "orderNumber",
+                        "in": "query",
+                        "description": "orderNumber"
+                    }
+                ]
+            }
+        },
+        "\/orders\/summary": {
+            "get": {
+                "summary": "Get Orders Summary",
+                "description": "Get orders summary.",
+                "operationId": "GetOrdersSummary",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/orders\/{orderId}": {
+            "get": {
+                "summary": "Get Orders Orderid",
+                "description": "Get orders orderid.",
+                "operationId": "GetOrdersOrder",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "orderId",
+                        "in": "path",
+                        "description": "orderId"
+                    }
+                ]
+            }
+        },
+        "\/preview\/**": {
+            "get": {
+                "summary": "Get Preview **",
+                "description": "Get preview **.",
+                "operationId": "GetPreview**",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "head": {
+                "summary": "Head Preview **",
+                "description": "Head preview **.",
+                "operationId": "HeadPreview**",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Preview **",
+                "description": "Post preview **.",
+                "operationId": "PostPreview**",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "put": {
+                "summary": "Put Preview **",
+                "description": "Put preview **.",
+                "operationId": "PutPreview**",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "delete": {
+                "summary": "Delete Preview **",
+                "description": "Delete preview **.",
+                "operationId": "DeletePreview**",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "options": {
+                "summary": "Options Preview **",
+                "description": "Options preview **.",
+                "operationId": "OptionsPreview**",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "patch": {
+                "summary": "Patch Preview **",
+                "description": "Patch preview **.",
+                "operationId": "PatchPreview**",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/promotion-messages\/{productId}": {
+            "get": {
+                "summary": "Get Promotion Messages",
+                "description": "Get promotion messages.",
+                "operationId": "GetPromotionMessagesProduct",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "productId",
+                        "in": "path",
+                        "description": "productId"
+                    }
+                ]
+            }
+        },
+        "\/ratings\/{itemId}": {
+            "get": {
+                "summary": "Get Ratings",
+                "description": "Get ratings.",
+                "operationId": "GetRatingsItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    },
+                    {
+                        "name": "ratingType",
+                        "in": "query",
+                        "description": "ratingType"
+                    }
+                ]
+            },
+            "head": {
+                "summary": "Head Ratings",
+                "description": "Head ratings.",
+                "operationId": "HeadRatingsItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    },
+                    {
+                        "name": "ratingType",
+                        "in": "query",
+                        "description": "ratingType"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Ratings",
+                "description": "Post ratings.",
+                "operationId": "PostRatingsItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    },
+                    {
+                        "name": "ratingType",
+                        "in": "query",
+                        "description": "ratingType"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Ratings",
+                "description": "Put ratings.",
+                "operationId": "PutRatingsItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    },
+                    {
+                        "name": "ratingType",
+                        "in": "query",
+                        "description": "ratingType"
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Ratings",
+                "description": "Delete ratings.",
+                "operationId": "DeleteRatingsItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    },
+                    {
+                        "name": "ratingType",
+                        "in": "query",
+                        "description": "ratingType"
+                    }
+                ]
+            },
+            "options": {
+                "summary": "Options Ratings",
+                "description": "Options ratings.",
+                "operationId": "OptionsRatingsItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    },
+                    {
+                        "name": "ratingType",
+                        "in": "query",
+                        "description": "ratingType"
+                    }
+                ]
+            },
+            "patch": {
+                "summary": "Patch Ratings",
+                "description": "Patch ratings.",
+                "operationId": "PatchRatingsItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    },
+                    {
+                        "name": "ratingType",
+                        "in": "query",
+                        "description": "ratingType"
+                    }
+                ]
+            }
+        },
+        "\/related-products": {
+            "get": {
+                "summary": "Get Related Products",
+                "description": "Get related products.",
+                "operationId": "GetRelatedProducts",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "productId",
+                        "in": "query",
+                        "description": "productId"
+                    },
+                    {
+                        "name": "productKey",
+                        "in": "query",
+                        "description": "productKey"
+                    },
+                    {
+                        "name": "categoryId",
+                        "in": "query",
+                        "description": "categoryId"
+                    },
+                    {
+                        "name": "categoryKey",
+                        "in": "query",
+                        "description": "categoryKey"
+                    },
+                    {
+                        "name": "quantity",
+                        "in": "query",
+                        "description": "quantity"
+                    },
+                    {
+                        "name": "type",
+                        "in": "query",
+                        "description": "type"
+                    },
+                    {
+                        "name": "includePromotionMessages",
+                        "in": "query",
+                        "description": "includePromotionMessages"
+                    },
+                    {
+                        "name": "includePriceData",
+                        "in": "query",
+                        "description": "includePriceData"
+                    }
+                ]
+            }
+        },
+        "\/shipping\/options": {
+            "get": {
+                "summary": "Get Shipping Options",
+                "description": "Get shipping options.",
+                "operationId": "GetShippingOptions",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "fulfillmentType",
+                        "in": "query",
+                        "description": "fulfillmentType"
+                    }
+                ]
+            }
+        },
+        "\/shipping\/{cartId}\/estimate": {
+            "get": {
+                "summary": "Get Shipping Estimate",
+                "description": "Get shipping estimate.",
+                "operationId": "GetShippingCartEstimate",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    }
+                ]
+            },
+            "head": {
+                "summary": "Head Shipping Estimate",
+                "description": "Head shipping estimate.",
+                "operationId": "HeadShippingCartEstimate",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Shipping Estimate",
+                "description": "Post shipping estimate.",
+                "operationId": "PostShippingCartEstimate",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Shipping Estimate",
+                "description": "Put shipping estimate.",
+                "operationId": "PutShippingCartEstimate",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Shipping Estimate",
+                "description": "Delete shipping estimate.",
+                "operationId": "DeleteShippingCartEstimate",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    }
+                ]
+            },
+            "options": {
+                "summary": "Options Shipping Estimate",
+                "description": "Options shipping estimate.",
+                "operationId": "OptionsShippingCartEstimate",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    }
+                ]
+            },
+            "patch": {
+                "summary": "Patch Shipping Estimate",
+                "description": "Patch shipping estimate.",
+                "operationId": "PatchShippingCartEstimate",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    }
+                ]
+            }
+        },
+        "\/shipping\/{cartId}\/group": {
+            "post": {
+                "summary": "Post Shipping Group",
+                "description": "Post shipping group.",
+                "operationId": "PostShippingCartGroup",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "wrapper",
+                        "in": "body",
+                        "description": "wrapper"
+                    },
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    }
+                ]
+            }
+        },
+        "\/shipping\/{cartId}\/group\/{fulfillmentGroupId}": {
+            "delete": {
+                "summary": "Delete Shipping Group Fulfillmentgroupid",
+                "description": "Delete shipping group fulfillmentgroupid.",
+                "operationId": "DeleteShippingCartGroupFulfillmentgroup",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "fulfillmentGroupId",
+                        "in": "path",
+                        "description": "fulfillmentGroupId"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    }
+                ]
+            },
+            "patch": {
+                "summary": "Patch Shipping Group Fulfillmentgroupid",
+                "description": "Patch shipping group fulfillmentgroupid.",
+                "operationId": "PatchShippingCartGroupFulfillmentgroup",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "wrapper",
+                        "in": "body",
+                        "description": "wrapper"
+                    },
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    },
+                    {
+                        "name": "fulfillmentGroupId",
+                        "in": "path",
+                        "description": "fulfillmentGroupId"
+                    }
+                ]
+            }
+        },
+        "\/shipping\/{cartId}\/group\/{fulfillmentGroupId}\/item": {
+            "post": {
+                "summary": "Post Shipping Group Fulfillmentgroupid Item",
+                "description": "Post shipping group fulfillmentgroupid item.",
+                "operationId": "PostShippingCartGroupFulfillmentgroupItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "fulfillmentGroupId",
+                        "in": "path",
+                        "description": "fulfillmentGroupId"
+                    },
+                    {
+                        "name": "wrapper",
+                        "in": "body",
+                        "description": "wrapper"
+                    },
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    }
+                ]
+            }
+        },
+        "\/shipping\/{cartId}\/group\/{fulfillmentGroupId}\/item\/{itemId}": {
+            "delete": {
+                "summary": "Delete Shipping Group Fulfillmentgroupid Item",
+                "description": "Delete shipping group fulfillmentgroupid item.",
+                "operationId": "DeleteShippingCartGroupFulfillmentgroupItemItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "fulfillmentGroupId",
+                        "in": "path",
+                        "description": "fulfillmentGroupId"
+                    },
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    }
+                ]
+            }
+        },
+        "\/shipping\/{cartId}\/group\/{fulfillmentGroupId}\/option\/{fulfillmentOptionId}": {
+            "put": {
+                "summary": "Put Shipping Group Fulfillmentgroupid Option Fulfillmentoptionid",
+                "description": "Put shipping group fulfillmentgroupid option fulfillmentoptionid.",
+                "operationId": "PutShippingCartGroupFulfillmentgroupOptionFulfillmentoption",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "fulfillmentGroupId",
+                        "in": "path",
+                        "description": "fulfillmentGroupId"
+                    },
+                    {
+                        "name": "fulfillmentOptionId",
+                        "in": "path",
+                        "description": "fulfillmentOptionId"
+                    },
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    }
+                ]
+            }
+        },
+        "\/shipping\/{cartId}\/groups": {
+            "get": {
+                "summary": "Get Shipping Groups",
+                "description": "Get shipping groups.",
+                "operationId": "GetShippingCartGroups",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Shipping Groups",
+                "description": "Delete shipping groups.",
+                "operationId": "DeleteShippingCartGroups",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "priceOrder",
+                        "in": "query",
+                        "description": "priceOrder"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    }
+                ]
+            }
+        },
+        "\/shipping\/{cartId}\/{fulfillmentGroupId}\/address": {
+            "put": {
+                "summary": "Put Shipping Fulfillmentgroupid Address",
+                "description": "Put shipping fulfillmentgroupid address.",
+                "operationId": "PutShippingCartFulfillmentgroupAddress",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "fulfillmentGroupId",
+                        "in": "path",
+                        "description": "fulfillmentGroupId"
+                    },
+                    {
+                        "name": "cartId",
+                        "in": "path",
+                        "description": "cartId"
+                    },
+                    {
+                        "name": "address",
+                        "in": "body",
+                        "description": "address"
+                    }
+                ]
+            }
+        },
+        "\/trace": {
+            "get": {
+                "summary": "Get Trace",
+                "description": "Get trace.",
+                "operationId": "GetTrace",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/trace.json": {
+            "get": {
+                "summary": "Get Trace",
+                "description": "Get trace.",
+                "operationId": "GetTraceJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/wishlist": {
+            "get": {
+                "summary": "Get Wishlist",
+                "description": "Get wishlist.",
+                "operationId": "GetWishlist",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "wishlistName",
+                        "in": "query",
+                        "description": "wishlistName"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Wishlist",
+                "description": "Post wishlist.",
+                "operationId": "PostWishlist",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "wishlistName",
+                        "in": "query",
+                        "description": "wishlistName"
+                    }
+                ]
+            }
+        },
+        "\/wishlist\/configure-item": {
+            "post": {
+                "summary": "Post Wishlist Configure Item",
+                "description": "Post wishlist configure item.",
+                "operationId": "PostWishlistConfigureItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "orderItemWrapper",
+                        "in": "body",
+                        "description": "orderItemWrapper"
+                    },
+                    {
+                        "name": "wishlistName",
+                        "in": "query",
+                        "description": "wishlistName"
+                    }
+                ]
+            }
+        },
+        "\/wishlist\/item": {
+            "post": {
+                "summary": "Post Wishlist Item",
+                "description": "Post wishlist item.",
+                "operationId": "PostWishlistItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "orderItemWrapper",
+                        "in": "body",
+                        "description": "orderItemWrapper"
+                    },
+                    {
+                        "name": "wishlistName",
+                        "in": "query",
+                        "description": "wishlistName"
+                    }
+                ]
+            }
+        },
+        "\/wishlist\/items\/{itemId}": {
+            "put": {
+                "summary": "Put Wishlist Items",
+                "description": "Put wishlist items.",
+                "operationId": "PutWishlistItemsItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "wishlistName",
+                        "in": "query",
+                        "description": "wishlistName"
+                    },
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    },
+                    {
+                        "name": "quantity",
+                        "in": "query",
+                        "description": "quantity"
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Wishlist Items",
+                "description": "Delete wishlist items.",
+                "operationId": "DeleteWishlistItemsItem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "wishlistName",
+                        "in": "query",
+                        "description": "wishlistName"
+                    },
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    }
+                ]
+            }
+        },
+        "\/wishlist\/items\/{itemId}\/move": {
+            "post": {
+                "summary": "Post Wishlist Items Move",
+                "description": "Post wishlist items move.",
+                "operationId": "PostWishlistItemsItemMove",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "wishlistName",
+                        "in": "query",
+                        "description": "wishlistName"
+                    },
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": "itemId"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "AddressWrapper": {
+                "type": "object",
+                "properties": {
+                    "addressLine1": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "addressLine2": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "addressLine3": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "companyName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "firstName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "isBusiness": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "isDefault": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "isoCountrySubdivision": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "lastName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "postalCode": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "stateProvinceRegion": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "AdjustmentWrapper": {
+                "type": "object",
+                "properties": {
+                    "discountAmount": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "discountType": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "marketingMessage": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "offerid": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "reason": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "BroadleafEnumerationTypeWrapper": {
+                "type": "object",
+                "properties": {
+                    "friendlyName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "CartMessageWrapper": {
+                "type": "object",
+                "properties": {
+                    "errorCode": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "messageType": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "priority": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "CategoriesWrapper": {
+                "type": "object",
+                "properties": {
+                    "category": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "CategoryAttributeWrapper": {
+                "type": "object",
+                "properties": {
+                    "attributeName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "attributeValue": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "categoryId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "CategoryWrapper": {
+                "type": "object",
+                "properties": {
+                    "active": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "activeEndDate": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "activeStartDate": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "category": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "categoryAttribute": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "product": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "relatedProduct": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "urlKey": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "ChangePasswordForm": {
+                "type": "object",
+                "properties": {
+                    "currentPassword": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "newPassword": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "newPasswordConfirm": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "ConfigurableOrderItemWrapper": {
+                "type": "object",
+                "properties": {
+                    "additionalAttributes": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "childOrderItems": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "hasConfigurationError": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "isMultiSelect": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "isUpdateRequest": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "itemAttributes": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "maxQuantity": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "minQuantity": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderItemId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderItemIndex": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "originalOrderItemId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "parentOrderItemId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "productChoices": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "productId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "quantity": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "skuId": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "CountryWrapper": {
+                "type": "object",
+                "properties": {
+                    "abbreviation": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "CustomerAddressWrapper": {
+                "type": "object",
+                "properties": {
+                    "addressName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "CustomerAttributeWrapper": {
+                "type": "object",
+                "properties": {
+                    "customerId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "CustomerPaymentWrapper": {
+                "type": "object",
+                "properties": {
+                    "additionalField": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "cardName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "cardType": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "expirationDate": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "isDefault": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "lastFour": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "paymentGatewayType": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "paymentToken": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "paymentType": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "CustomerWrapper": {
+                "type": "object",
+                "properties": {
+                    "customerAttribute": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "emailAddress": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "firstName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "lastName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "registered": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "DimensionWrapper": {
+                "type": "object",
+                "properties": {
+                    "container": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "depth": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "dimensionUnitOfMeasure": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "girth": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "height": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "size": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "width": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "DynamicSkuPricesWrapper": {
+                "type": "object"
+            },
+            "ErrorMessageWrapper": {
+                "type": "object",
+                "properties": {
+                    "message": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "messageKey": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "ErrorWrapper": {
+                "type": "object",
+                "properties": {
+                    "httpStatusCode": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "FulfillmentEstimationWrapper": {
+                "type": "object"
+            },
+            "FulfillmentGroupItemWrapper": {
+                "type": "object",
+                "properties": {
+                    "fulfillmentGroupId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderItemId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "quantity": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "taxDetail": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "FulfillmentGroupWrapper": {
+                "type": "object",
+                "properties": {
+                    "fulfillmentGroupAdjustment": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "fulfillmentGroupItem": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "taxDetail": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "FulfillmentOptionWrapper": {
+                "type": "object",
+                "properties": {
+                    "description": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "ISOCountryWrapper": {
+                "type": "object",
+                "properties": {
+                    "alpha2": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "InventoryWrapper": {
+                "type": "object",
+                "properties": {
+                    "inventoryType": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "quantityAvailable": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "skuId": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "MapElementWrapper": {
+                "type": "object",
+                "properties": {
+                    "key": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "MediaWrapper": {
+                "type": "object",
+                "properties": {
+                    "altText": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "tags": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "ModelAndView": {
+                "type": "object",
+                "properties": {
+                    "empty": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "model": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "modelMap": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "reference": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "viewName": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "Money": {
+                "type": "object",
+                "properties": {
+                    "amount": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "OrderAttributeWrapper": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "OrderItemAttributeWrapper": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderItemId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "OrderItemPriceDetailWrapper": {
+                "type": "object",
+                "properties": {
+                    "adjustment": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "quantity": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "OrderItemQualifierWrapper": {
+                "type": "object",
+                "properties": {
+                    "offerid": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "quantity": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "OrderItemWrapper": {
+                "type": "object",
+                "properties": {
+                    "bundleItem": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "cartMessages": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "categoryId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "childOrderItems": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "hasValidationError": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "isBundle": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "isDiscountingAllowed": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderItemAttribute": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderItemPriceDetails": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "parentOrderItemId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "productId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "productUrl": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "qualifier": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "quantity": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "skuId": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "OrderPaymentWrapper": {
+                "type": "object",
+                "properties": {
+                    "amount": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "gatewayType": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "isActive": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "referenceNumber": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "transactions": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "OrderWrapper": {
+                "type": "object",
+                "properties": {
+                    "cartMessages": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "emailAddress": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "fulfillmentGroup": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "itemCount": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderAdjustment": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderAttribute": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderItem": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderNumber": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "payment": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "submitDate": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "PaymentTransactionWrapper": {
+                "type": "object",
+                "properties": {
+                    "additionalField": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "amount": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "customerIpAddress": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderPaymentId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "parentTransactionId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "rawResponse": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "success": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "PhoneWrapper": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "isActive": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "isDefault": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "phoneNumber": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "ProductAttributeWrapper": {
+                "type": "object",
+                "properties": {
+                    "attributeName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "attributeValue": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "productId": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "ProductOptionValueWrapper": {
+                "type": "object",
+                "properties": {
+                    "attributeValue": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "productOptionId": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "ProductOptionWrapper": {
+                "type": "object",
+                "properties": {
+                    "allowedValue": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "attributeName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "productOptionType": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "productOptionValidationStrategyType": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "productOptionValidationType": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "required": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "validationString": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "ProductWrapper": {
+                "type": "object",
+                "properties": {
+                    "active": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "activeEndDate": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "activeStartDate": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "additionalSkus": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "crossSaleProduct": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "defaultCategoryId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "longDescription": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "manufacturer": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "media": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "model": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "priority": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "productAttribute": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "productOption": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "promoMessage": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "promotionMessages": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "skuBundleItem": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "upsaleProduct": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "PromotionMessageDTOWrapper": {
+                "type": "object",
+                "properties": {
+                    "localeCode": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "messagePlacement": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "priority": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "RatingDetailWrapper": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "rating": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "ratingSubmittedDate": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "RatingSummaryWrapper": {
+                "type": "object",
+                "properties": {
+                    "averageRating": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "itemId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "numberOfRatings": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "numberOfReviews": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "rating": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "ratingType": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "review": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "RelatedProductWrapper": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "promotionalMessage": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "sequence": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "ReviewDetailWrapper": {
+                "type": "object",
+                "properties": {
+                    "author": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "helpfulCount": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "notHelpfulCount": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "reviewFeedback": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "reviewStatus": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "reviewSubmittedDate": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "reviewText": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "ReviewFeedbackWrapper": {
+                "type": "object",
+                "properties": {
+                    "helpful": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "SearchFacetValueWrapper": {
+                "type": "object",
+                "properties": {
+                    "active": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "maxValue": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "minValue": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "quantity": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "valueKey": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "SearchFacetWrapper": {
+                "type": "object",
+                "properties": {
+                    "active": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "canMultiselect": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "fieldName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "values": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "SearchResultsWrapper": {
+                "type": "object",
+                "properties": {
+                    "page": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "pageSize": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "product": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "searchFacet": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "sku": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "totalPages": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "totalResults": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "SkuAttributeWrapper": {
+                "type": "object",
+                "properties": {
+                    "attributeName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "attributeValue": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "skuId": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "SkuBundleItemWrapper": {
+                "type": "object",
+                "properties": {
+                    "active": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "bundleId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "longDescription": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "productId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "quantity": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "SkuWrapper": {
+                "type": "object",
+                "properties": {
+                    "active": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "activeEndDate": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "activeStartDate": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "available": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "inventoryType": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "StateWrapper": {
+                "type": "object",
+                "properties": {
+                    "abbreviation": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "TaxDetailWrapper": {
+                "type": "object",
+                "properties": {
+                    "country": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "jurisdictionName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "rate": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "region": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "taxName": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "View": {
+                "type": "object",
+                "properties": {
+                    "contentType": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "WeightWrapper": {
+                "type": "object",
+                "properties": {
+                    "unitOfMeasure": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "weight": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            }
+        }
+    }
+}
