@@ -1,0 +1,77 @@
+{
+    "name": "Broadleaf Commerce",
+    "description": "Broadleaf Commerce is a software technology company headquartered in Dallas, Texas, providing an open source Java eCommerce platform based on Spring Framework.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28889-www-broadleafcommerce-com.jpg",
+    "tags": [
+        "have api",
+        "relative data",
+        "service api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/broadleaf-commerce\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Broadleaf Commerce API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28889-www-broadleafcommerce-com.jpg",
+            "humanURL": "https:\/\/www.broadleafcommerce.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/broadleaf-commerce-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/broadleaf-commerce-api.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/broadleaf-commerce"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/demo.broadleafcommerce.org\/api\/v1\/swagger-ui.html#\/catalog45endpoint"
+        },
+        {
+            "type": "Email",
+            "url": "info@broadleafcommerce.org"
+        },
+        {
+            "type": "Email",
+            "url": "info@broadleafcommerce.com"
+        },
+        {
+            "type": "Email",
+            "url": "marketing@broadleafcommerce.com"
+        },
+        {
+            "type": "Email",
+            "url": "legal@broadleafcommerce.com"
+        },
+        {
+            "type": "Email",
+            "url": "security@broadleafcommerce.com"
+        },
+        {
+            "type": "Getting Started",
+            "url": "https:\/\/www.broadleafcommerce.com\/docs\/core\/current\/getting-started"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/broadleaf"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.broadleafcommerce.com"
+        }
+    ]
+}
