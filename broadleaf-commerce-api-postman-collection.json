@@ -1,0 +1,5161 @@
+{
+    "id": "bdd91d09a79b462b6148c08013b2e7c8",
+    "name": "Broadleaf Commerce API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "2247bcca620b63fc481c5d4f10ddb6ac",
+            "name": "Get Auditevents",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/auditevents",
+            "description": "Get auditevents.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "principal",
+                    "description": "principal",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "after",
+                    "description": "after",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "type",
+                    "description": "type",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "4f800c3e0b18c43e0264c80abac4e124",
+            "name": "Get Auditevents",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/auditevents.json",
+            "description": "Get auditevents.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "principal",
+                    "description": "principal",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "after",
+                    "description": "after",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "type",
+                    "description": "type",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "d80e35d34f9d68d4ae7a0ca1139d2a5b",
+            "name": "Get Autoconfig",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/autoconfig",
+            "description": "Get autoconfig.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "c6dbdcdbc4fc0a73d3b9aee53476f2b4",
+            "name": "Get Autoconfig",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/autoconfig.json",
+            "description": "Get autoconfig.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "936546a3d493b961254a825909281109",
+            "name": "Get Beans",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/beans",
+            "description": "Get beans.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "b54e3b5fc694fd5ff722ea4463779f73",
+            "name": "Get Beans",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/beans.json",
+            "description": "Get beans.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "a6acb9ab8acab06a02e91ff8ad9be635",
+            "name": "Get Cart",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart",
+            "description": "Get cart.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "c7ef04f63c65d1456c0117f135361267",
+            "name": "Post Cart",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart",
+            "description": "Post cart.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "8b8905dd783ecd6e11e148f911f0b9c2",
+            "name": "Post Cart Checkout",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/checkout",
+            "description": "Post cart checkout.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "0fb603d969dfaa828406e7533e1ac723",
+            "name": "Post Cart Checkout Payment",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/checkout\/payment",
+            "description": "Post cart checkout payment.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "wrapper",
+                    "description": "wrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "453d68e41b63a8ebb5cf49e48ef791d4",
+            "name": "Post Cart Checkout Payment Customerpaymentid",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/checkout\/payment\/{customerPaymentId}",
+            "description": "Post cart checkout payment customerpaymentid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "amount",
+                    "description": "amount",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currency",
+                    "description": "currency",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerPaymentId",
+                    "description": "customerPaymentId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "8d44be1f617ee78da1eaea86a3bc2733",
+            "name": "Delete Cart Checkout Payment Paymentid",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/checkout\/payment\/{paymentId}",
+            "description": "Delete cart checkout payment paymentid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "paymentId",
+                    "description": "paymentId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "67169d62e537fa9b6fdf3a96b8a873b0",
+            "name": "Put Cart Checkout Payment Paymentid Transaction",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/checkout\/payment\/{paymentId}\/transaction",
+            "description": "Put cart checkout payment paymentid transaction.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "paymentId",
+                    "description": "paymentId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "wrapper",
+                    "description": "wrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "69380793f00099fa90f03f2ff8343761",
+            "name": "Get Cart Checkout Payments",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/checkout\/payments",
+            "description": "Get cart checkout payments.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "f4f7ebc9d544af422e5959ffc0bfb408",
+            "name": "Get Cart",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}",
+            "description": "Get cart.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "f8b0325c5b9d1f8899bd7ec93d8da243",
+            "name": "Put Cart Attributes",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/attributes",
+            "description": "Put cart attributes.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "requestParams",
+                    "description": "requestParams",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "fb9f2ea871c97a8a5db984ef59c0b4b7",
+            "name": "Delete Cart Attributes",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/attributes",
+            "description": "Delete cart attributes.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "requestParams",
+                    "description": "requestParams",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "1f2d54213378fb2532eed098f836ac94",
+            "name": "Post Cart Item",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/item",
+            "description": "Post cart item.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "orderItemWrapper",
+                    "description": "orderItemWrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "1fb2c5a611f77af41d3e3e249be6de6b",
+            "name": "Put Cart Item Attributes",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/item\/{itemId}\/attributes",
+            "description": "Put cart item attributes.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "requestParams",
+                    "description": "requestParams",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "ff597e7affcbc3d378ddbed1df7a7135",
+            "name": "Delete Cart Item Attributes",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/item\/{itemId}\/attributes",
+            "description": "Delete cart item attributes.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "requestParams",
+                    "description": "requestParams",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "2eaef14f6f593e5267fac079ed162130",
+            "name": "Put Cart Items",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/items\/{itemId}",
+            "description": "Put cart items.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "quantity",
+                    "description": "quantity",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "2698f8022d4fdd2c649d6390308f5dd3",
+            "name": "Delete Cart Items",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/items\/{itemId}",
+            "description": "Delete cart items.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "e37d645c0488d3cc3ef6656395b433ed",
+            "name": "Post Cart Offer Promocode",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/offer\/{promoCode}",
+            "description": "Post cart offer promocode.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "promoCode",
+                    "description": "promoCode",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "b8e6e8bd29a335d98e99bd95ff5926b2",
+            "name": "Delete Cart Offer Promocode",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/offer\/{promoCode}",
+            "description": "Delete cart offer promocode.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "promoCode",
+                    "description": "promoCode",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "6a17be0e829991e21a75d5426e7ba7eb",
+            "name": "Delete Cart Offers",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/offers",
+            "description": "Delete cart offers.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "efadf751d9bb34a0c4ab23489423f2af",
+            "name": "Get Catalog Categories",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/categories",
+            "description": "Get catalog categories.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name",
+                    "description": "name",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "limit",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "offset",
+                    "description": "offset",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "6cfb712fb13fb514f9da3c075103d329",
+            "name": "Get Catalog Category",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/category",
+            "description": "Get catalog category.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "searchParameter",
+                    "description": "searchParameter",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "productLimit",
+                    "description": "productLimit",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "productOffset",
+                    "description": "productOffset",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "subcategoryLimit",
+                    "description": "subcategoryLimit",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "subcategoryOffset",
+                    "description": "subcategoryOffset",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "d888a6c24a2243564dfbd02a31c3fd85",
+            "name": "Get Catalog Category",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/category\/{categoryId}",
+            "description": "Get catalog category.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "categoryId",
+                    "description": "categoryId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "productLimit",
+                    "description": "productLimit",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "productOffset",
+                    "description": "productOffset",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "subcategoryLimit",
+                    "description": "subcategoryLimit",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "subcategoryOffset",
+                    "description": "subcategoryOffset",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "34be9afd41dbdd212a2a8145283fd7a6",
+            "name": "Get Catalog Category Active Subcategories",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/category\/{categoryId}\/activeSubcategories",
+            "description": "Get catalog category active subcategories.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "categoryId",
+                    "description": "categoryId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "limit",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "offset",
+                    "description": "offset",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "10baca0756082e0cbc84a7ba5a027b5c",
+            "name": "Get Catalog Category Attributes",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/category\/{categoryId}\/attributes",
+            "description": "Get catalog category attributes.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "categoryId",
+                    "description": "categoryId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "6aecbdf5b1955e2047b654fed62064ca",
+            "name": "Get Catalog Category Categories",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/category\/{categoryId}\/categories",
+            "description": "Get catalog category categories.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "categoryId",
+                    "description": "categoryId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "limit",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "offset",
+                    "description": "offset",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "active",
+                    "description": "active",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "a5b96bc16f38f07d68eacd118d298ced",
+            "name": "Get Catalog Category Media",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/category\/{id}\/media",
+            "description": "Get catalog category media.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "7628ed1446dce33be6a514fec8c7103d",
+            "name": "Get Catalog Product",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{id}",
+            "description": "Get catalog product.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "includePromotionMessages",
+                    "description": "includePromotionMessages",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "includePriceData",
+                    "description": "includePriceData",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "e18beb6fb6619ba33a6229fb83a5a794",
+            "name": "Get Catalog Product Attributes",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{productId}\/attributes",
+            "description": "Get catalog product attributes.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "productId",
+                    "description": "productId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "1d48f7120f21d137cf4e8a59327775ed",
+            "name": "Get Catalog Product Categories",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{productId}\/categories",
+            "description": "Get catalog product categories.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "productId",
+                    "description": "productId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "21e0e1ac7fe8ecd4c6ae9f0663ff3968",
+            "name": "Get Catalog Product Crosssale",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{productId}\/crosssale",
+            "description": "Get catalog product crosssale.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "productId",
+                    "description": "productId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "limit",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "offset",
+                    "description": "offset",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "fc5131913300f23dd317a92021298b69",
+            "name": "Get Catalog Product Default sku",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{productId}\/defaultSku",
+            "description": "Get catalog product default sku.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "productId",
+                    "description": "productId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "e31a6314224c4ba393ac7abca7610791",
+            "name": "Get Catalog Product Media",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{productId}\/media",
+            "description": "Get catalog product media.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "productId",
+                    "description": "productId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "3694d8b88c0ade81ee475544c6070b69",
+            "name": "Get Catalog Product Skus",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{productId}\/skus",
+            "description": "Get catalog product skus.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "productId",
+                    "description": "productId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "88c3d56cfc7aded9913db93ccc00a6d2",
+            "name": "Get Catalog Product Upsale",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{productId}\/upsale",
+            "description": "Get catalog product upsale.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "productId",
+                    "description": "productId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "limit",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "offset",
+                    "description": "offset",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "2863cc09f0ab7fe7dd80e4c2738deeb1",
+            "name": "Get Catalog Search",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/search",
+            "description": "Get catalog search.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "q",
+                    "description": "q",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageSize",
+                    "description": "pageSize",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "page",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "includePromotionMessages",
+                    "description": "includePromotionMessages",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "includePriceData",
+                    "description": "includePriceData",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "48d2126b4dd093ebbd0f04f48763d157",
+            "name": "Get Catalog Search Category",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/search\/category\/{categoryId}",
+            "description": "Get catalog search category.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "categoryId",
+                    "description": "categoryId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "q",
+                    "description": "q",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageSize",
+                    "description": "pageSize",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "page",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "includePromotionMessages",
+                    "description": "includePromotionMessages",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "includePriceData",
+                    "description": "includePriceData",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "faf09c587448ce3b4bcb737626b6b958",
+            "name": "Get Catalog Sku Inventory",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/sku\/inventory",
+            "description": "Get catalog sku inventory.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "id",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "0248205e7db862f936ceeebfaeb4283b",
+            "name": "Get Catalog Sku Skuid",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/sku\/{skuId}",
+            "description": "Get catalog sku skuid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "skuId",
+                    "description": "skuId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "73d0dfd9c6bff5edd5c4e165657818ba",
+            "name": "Get Catalog Sku Skuid Attributes",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/sku\/{skuId}\/attributes",
+            "description": "Get catalog sku skuid attributes.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "skuId",
+                    "description": "skuId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "34b9497efbe84a5daaecb4a12e8d3e4a",
+            "name": "Get Catalog Sku Skuid Media",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/sku\/{skuId}\/media",
+            "description": "Get catalog sku skuid media.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "skuId",
+                    "description": "skuId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "4261505eb22f873ff3606dbf2948f64a",
+            "name": "Get Configprops",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/configprops",
+            "description": "Get configprops.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "ce2ccd3373c8a617633f0031e502673b",
+            "name": "Get Configprops",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/configprops.json",
+            "description": "Get configprops.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "ccc6a6d11976972e6763d92d93a6f47e",
+            "name": "Get Customer",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer",
+            "description": "Get customer.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "email",
+                    "description": "email",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "f12b5bf55843d99936a97146ee7056a4",
+            "name": "Post Customer",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer",
+            "description": "Post customer.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "wrapper",
+                    "description": "wrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "2a4fa7a6f1b281b528038a2f09cd9231",
+            "name": "Put Customer",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer",
+            "description": "Put customer.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "wrapper",
+                    "description": "wrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "0b9a19bed5c80f7f22307ba8912371ed",
+            "name": "Get Customer Address",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/address",
+            "description": "Get customer address.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "addressName",
+                    "description": "addressName",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "79fb116996d3eae5a0e601bd12347b1c",
+            "name": "Put Customer Address",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/address",
+            "description": "Put customer address.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "wrapper",
+                    "description": "wrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "0cce89ada0045d0e1039bfbdd526410b",
+            "name": "Put Customer Address Addressid",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/address\/{addressId}",
+            "description": "Put customer address addressid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "addressId",
+                    "description": "addressId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "wrapper",
+                    "description": "wrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "d67148870ba8ae0adae56f7776f4bcb2",
+            "name": "Delete Customer Address Addressname",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/address\/{addressName}",
+            "description": "Delete customer address addressname.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "addressName",
+                    "description": "addressName",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "1f00e3ef19193a0f8614486085946504",
+            "name": "Get Customer Addresses",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/addresses",
+            "description": "Get customer addresses.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "4285e090051795ecf8ca3aba265897cd",
+            "name": "Delete Customer Addresses",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/addresses",
+            "description": "Delete customer addresses.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "aac2acbea8b3cf8120ec4f1209bdc8c9",
+            "name": "Put Customer Attribute",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/attribute",
+            "description": "Put customer attribute.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "wrapper",
+                    "description": "wrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "554c0ca7dcd856a610dbc3f72b74ca01",
+            "name": "Delete Customer Attribute Attributename",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/attribute\/{attributeName}",
+            "description": "Delete customer attribute attributename.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "attributeName",
+                    "description": "attributeName",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "1fb6d7f3fb58564bb615c4905ecb30b2",
+            "name": "Delete Customer Attributes",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/attributes",
+            "description": "Delete customer attributes.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "3e26e48a9f8e45dc3340db1e49f65bd4",
+            "name": "Post Customer Password",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/password",
+            "description": "Post customer password.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "changePasswordForm",
+                    "description": "changePasswordForm",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "92afa27b6dcdb3f9ae281f939093c3ce",
+            "name": "Get Customer Payment",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/payment",
+            "description": "Get customer payment.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "paymentId",
+                    "description": "paymentId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "743d63069c1baac65f9bb38bf18ca605",
+            "name": "Post Customer Payment",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/payment",
+            "description": "Post customer payment.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "wrapper",
+                    "description": "wrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "26b1eb8c369f9bd854d1e5aa659524dd",
+            "name": "Put Customer Payment Paymentid",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/payment\/{paymentId}",
+            "description": "Put customer payment paymentid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "paymentId",
+                    "description": "paymentId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "wrapper",
+                    "description": "wrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "4dc61746dc817a76ceb648bcfd8f5549",
+            "name": "Delete Customer Payment Paymentid",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/payment\/{paymentId}",
+            "description": "Delete customer payment paymentid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "paymentId",
+                    "description": "paymentId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "af92d90f35a0db78a6acb229746ee555",
+            "name": "Get Customer Payments",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/payments",
+            "description": "Get customer payments.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "bd649a1e9aaf0da5aeee2d2202ae9036",
+            "name": "Delete Customer Payments",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/payments",
+            "description": "Delete customer payments.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "customerId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "28c61f712e8fae2e2230d468566498ed",
+            "name": "Get Docsreload",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/docsreload",
+            "description": "Get docsreload.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "089675145b9df695cd7b881e87dcb1ff",
+            "name": "Head Docsreload",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/docsreload",
+            "description": "Head docsreload.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "head",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "658dfcb8bb5f713574b57ea9aa380a77",
+            "name": "Post Docsreload",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/docsreload",
+            "description": "Post docsreload.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "3b9008e8e8ee1be055f8d5184ca34a16",
+            "name": "Put Docsreload",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/docsreload",
+            "description": "Put docsreload.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "bf1aad55201b2ea091251d5e9d080802",
+            "name": "Delete Docsreload",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/docsreload",
+            "description": "Delete docsreload.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "7c27fd599858d0c2f4c3fb382b24fb95",
+            "name": "Options Docsreload",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/docsreload",
+            "description": "Options docsreload.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "options",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "af071da7759209c9a9f6e3477c8a522b",
+            "name": "Patch Docsreload",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/docsreload",
+            "description": "Patch docsreload.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "d83598ec3ebd34e187bc637d528b37ce",
+            "name": "Get Dump",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/dump",
+            "description": "Get dump.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "c09fccca75855f64301d3a4d443c7812",
+            "name": "Get Dump",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/dump.json",
+            "description": "Get dump.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "971b39c6b006b63c21b9ee8d2ae94846",
+            "name": "Get Env",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/env",
+            "description": "Get env.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "ab4c5a15f82f86000aca085f76be625d",
+            "name": "Get Env",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/env.json",
+            "description": "Get env.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "2d76b40eab6b673637904c55ff2c0d2e",
+            "name": "Get Env Name",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/env\/{name}",
+            "description": "Get env name.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name",
+                    "description": "name",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "f438a64f863355f51d8dd810c44ecc89",
+            "name": "Get Error",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/error",
+            "description": "Get error.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "7228f556ce7a38465ea915a58b03d539",
+            "name": "Head Error",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/error",
+            "description": "Head error.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "head",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "73420781b2fea8a4a5dbbf63924c8c48",
+            "name": "Post Error",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/error",
+            "description": "Post error.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "6a4eb5edbd1fb29d1147dc2ddb3a18ce",
+            "name": "Put Error",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/error",
+            "description": "Put error.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "ab8611071412be24eb8eeda60962b85a",
+            "name": "Delete Error",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/error",
+            "description": "Delete error.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "aaacd961028c97b9063c2908730d6d1c",
+            "name": "Options Error",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/error",
+            "description": "Options error.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "options",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "b9c88db82f3d2fab3966abb5c074117f",
+            "name": "Patch Error",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/error",
+            "description": "Patch error.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "91a061041930a886fc45713bca10b86f",
+            "name": "Get Health",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/health",
+            "description": "Get health.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "b2bb4c4d9578f014ddbda4353cd31344",
+            "name": "Get Health",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/health.json",
+            "description": "Get health.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "7060fd2e3677fd208e7f37085fd647f7",
+            "name": "Get Heapdump",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/heapdump",
+            "description": "Get heapdump.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "live",
+                    "description": "live",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "d1af4bb452c4bcd492e2b70dd06f1b1a",
+            "name": "Get Heapdump",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/heapdump.json",
+            "description": "Get heapdump.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "live",
+                    "description": "live",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "135903d0eed1aa00bce3944b61b4b181",
+            "name": "Get Info",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/info",
+            "description": "Get info.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "089f5b63dcff2c3294d9438193934290",
+            "name": "Get Info",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/info.json",
+            "description": "Get info.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "c759c65122198a76a1aa3627799f704a",
+            "name": "Get Logfile",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/logfile",
+            "description": "Get logfile.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "1fcb7d26f7f84217cfeb9549e5c975d9",
+            "name": "Head Logfile",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/logfile",
+            "description": "Head logfile.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "head",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "7e00617598c1ed20865ca79cf71fca3b",
+            "name": "Get Logfile",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/logfile.json",
+            "description": "Get logfile.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "360220f1d295c45a8603a1ecfb5fe9d8",
+            "name": "Head Logfile",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/logfile.json",
+            "description": "Head logfile.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "head",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "bfe924f369d2a3bc5b0f6c3cad387786",
+            "name": "Get Loggers",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/loggers",
+            "description": "Get loggers.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "a52a735d46275f5f4ebd1ee2f97dc506",
+            "name": "Get Loggers",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/loggers.json",
+            "description": "Get loggers.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "a2d544d9cf08170a6aeb3de9bd6dddc3",
+            "name": "Get Loggers Name",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/loggers\/{name}",
+            "description": "Get loggers name.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name",
+                    "description": "name",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "80344fd29df4979031298a39e7a5f1dc",
+            "name": "Post Loggers Name",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/loggers\/{name}",
+            "description": "Post loggers name.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name",
+                    "description": "name",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "configuration",
+                    "description": "configuration",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "c5dd8cfc2634feb09db2633ad4cb81d2",
+            "name": "Get Mappings",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/mappings",
+            "description": "Get mappings.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "618c9c500fbb55cc7463a2b2db6153e6",
+            "name": "Get Mappings",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/mappings.json",
+            "description": "Get mappings.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "b09529a657260f85ebd8c5ba5c3b75ce",
+            "name": "Get Metrics",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/metrics",
+            "description": "Get metrics.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "5fecea6af1657fb93fa5acfc74642364",
+            "name": "Get Metrics",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/metrics.json",
+            "description": "Get metrics.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "984b3ec11743353af1bdd80856a99be5",
+            "name": "Get Metrics Name",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/metrics\/{name}",
+            "description": "Get metrics name.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name",
+                    "description": "name",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "1881a9ef80d5c24ab0cd3444bc63c031",
+            "name": "Get Orders",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/orders",
+            "description": "Get orders.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "orderStatus",
+                    "description": "orderStatus",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "orderNumber",
+                    "description": "orderNumber",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "acdc42a2bd44e58ae2343e0177445df4",
+            "name": "Get Orders Summary",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/orders\/summary",
+            "description": "Get orders summary.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "d443b09ef7f3c9e8cd09b36786c4163c",
+            "name": "Get Orders Orderid",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/orders\/{orderId}",
+            "description": "Get orders orderid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "orderId",
+                    "description": "orderId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "1b49623dd510ae50c5160eebc254ef5f",
+            "name": "Get Preview **",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/preview\/**",
+            "description": "Get preview **.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "493e612a4f635c73aeb52e137b16a9bd",
+            "name": "Head Preview **",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/preview\/**",
+            "description": "Head preview **.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "head",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "3c9d5bc0f0951582b1c07774bfe64b66",
+            "name": "Post Preview **",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/preview\/**",
+            "description": "Post preview **.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "5eac31dd1a6cfb51ef44bd3a84cdc63c",
+            "name": "Put Preview **",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/preview\/**",
+            "description": "Put preview **.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "da1b7b2bb70411625d5a149813d96eb3",
+            "name": "Delete Preview **",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/preview\/**",
+            "description": "Delete preview **.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "6eaece5998df560a3c790d1dae582cee",
+            "name": "Options Preview **",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/preview\/**",
+            "description": "Options preview **.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "options",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "b5d3cb2af0b70396a8b9f1899ed791e8",
+            "name": "Patch Preview **",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/preview\/**",
+            "description": "Patch preview **.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "1d70b7b682d07dc45360697231f12d05",
+            "name": "Get Promotion Messages",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/promotion-messages\/{productId}",
+            "description": "Get promotion messages.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "productId",
+                    "description": "productId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "dfb4642e82270ade5c7cb620505c4c81",
+            "name": "Get Ratings",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/ratings\/{itemId}",
+            "description": "Get ratings.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ratingType",
+                    "description": "ratingType",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "7c7de5d8dd61d0b596ca5bf27c7df739",
+            "name": "Head Ratings",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/ratings\/{itemId}",
+            "description": "Head ratings.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "head",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ratingType",
+                    "description": "ratingType",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "c1be63ed5c573062661a13482cd1aca6",
+            "name": "Post Ratings",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/ratings\/{itemId}",
+            "description": "Post ratings.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ratingType",
+                    "description": "ratingType",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "3a77577533c041e8469f1d4910a61a30",
+            "name": "Put Ratings",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/ratings\/{itemId}",
+            "description": "Put ratings.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ratingType",
+                    "description": "ratingType",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "d17333da1d3c62e6b502a433d1a5340e",
+            "name": "Delete Ratings",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/ratings\/{itemId}",
+            "description": "Delete ratings.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ratingType",
+                    "description": "ratingType",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "2c6a2d6d6adfd2a5d54310aaa2f3f310",
+            "name": "Options Ratings",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/ratings\/{itemId}",
+            "description": "Options ratings.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "options",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ratingType",
+                    "description": "ratingType",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "9cf200368f15d884e01c875613da6593",
+            "name": "Patch Ratings",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/ratings\/{itemId}",
+            "description": "Patch ratings.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ratingType",
+                    "description": "ratingType",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "6de38016fcbe19b5135748c0b03c4de0",
+            "name": "Get Related Products",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/related-products",
+            "description": "Get related products.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "productId",
+                    "description": "productId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "productKey",
+                    "description": "productKey",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "categoryId",
+                    "description": "categoryId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "categoryKey",
+                    "description": "categoryKey",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "quantity",
+                    "description": "quantity",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "type",
+                    "description": "type",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "includePromotionMessages",
+                    "description": "includePromotionMessages",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "includePriceData",
+                    "description": "includePriceData",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "aa890e1f86915a48caff62f17d5c3edd",
+            "name": "Get Shipping Options",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/options",
+            "description": "Get shipping options.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fulfillmentType",
+                    "description": "fulfillmentType",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "7190087f83f519ab3af24bbdf1153951",
+            "name": "Get Shipping Estimate",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/estimate",
+            "description": "Get shipping estimate.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "f963e5b5228017a19fe90202eaa668f9",
+            "name": "Head Shipping Estimate",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/estimate",
+            "description": "Head shipping estimate.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "head",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "29ca315a82b27876c5d96fc82454a06c",
+            "name": "Post Shipping Estimate",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/estimate",
+            "description": "Post shipping estimate.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "56241e661f524cb79fdbb24b91a2d44e",
+            "name": "Put Shipping Estimate",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/estimate",
+            "description": "Put shipping estimate.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "aaa996cac3d216d53c565005ce3e9d9c",
+            "name": "Delete Shipping Estimate",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/estimate",
+            "description": "Delete shipping estimate.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "aa1e16a739cabbb3e4f28f93a41a4102",
+            "name": "Options Shipping Estimate",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/estimate",
+            "description": "Options shipping estimate.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "options",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "0513ca9374dcea24062ccfc5206a8b71",
+            "name": "Patch Shipping Estimate",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/estimate",
+            "description": "Patch shipping estimate.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "96fab03c9bf1888ec7e2a028a593b43f",
+            "name": "Post Shipping Group",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/group",
+            "description": "Post shipping group.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "wrapper",
+                    "description": "wrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "237f228e43790af07e6eee2ded4ae954",
+            "name": "Delete Shipping Group Fulfillmentgroupid",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/group\/{fulfillmentGroupId}",
+            "description": "Delete shipping group fulfillmentgroupid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fulfillmentGroupId",
+                    "description": "fulfillmentGroupId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "f3a5aca54b092a62fe624abf15201b32",
+            "name": "Patch Shipping Group Fulfillmentgroupid",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/group\/{fulfillmentGroupId}",
+            "description": "Patch shipping group fulfillmentgroupid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "wrapper",
+                    "description": "wrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fulfillmentGroupId",
+                    "description": "fulfillmentGroupId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "93940a91533fce2cdad6d1fd5ec2b6b0",
+            "name": "Post Shipping Group Fulfillmentgroupid Item",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/group\/{fulfillmentGroupId}\/item",
+            "description": "Post shipping group fulfillmentgroupid item.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fulfillmentGroupId",
+                    "description": "fulfillmentGroupId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "wrapper",
+                    "description": "wrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "4d83eab011c3efc08f09b225260d74cd",
+            "name": "Delete Shipping Group Fulfillmentgroupid Item",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/group\/{fulfillmentGroupId}\/item\/{itemId}",
+            "description": "Delete shipping group fulfillmentgroupid item.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fulfillmentGroupId",
+                    "description": "fulfillmentGroupId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "d8affbbc5c6c036de467dc1566bd4763",
+            "name": "Put Shipping Group Fulfillmentgroupid Option Fulfillmentoptionid",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/group\/{fulfillmentGroupId}\/option\/{fulfillmentOptionId}",
+            "description": "Put shipping group fulfillmentgroupid option fulfillmentoptionid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fulfillmentGroupId",
+                    "description": "fulfillmentGroupId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fulfillmentOptionId",
+                    "description": "fulfillmentOptionId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "db1beeaaead06a93deea4b68a5f71dfd",
+            "name": "Get Shipping Groups",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/groups",
+            "description": "Get shipping groups.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "0134c4fdb52f8041396c40441b4ff5a7",
+            "name": "Delete Shipping Groups",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/groups",
+            "description": "Delete shipping groups.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "priceOrder",
+                    "description": "priceOrder",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "9eb0e780b18a0a0bf7266039f6dfd98a",
+            "name": "Put Shipping Fulfillmentgroupid Address",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/{fulfillmentGroupId}\/address",
+            "description": "Put shipping fulfillmentgroupid address.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fulfillmentGroupId",
+                    "description": "fulfillmentGroupId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cartId",
+                    "description": "cartId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "address",
+                    "description": "address",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "bd9156322093686e77a80e976823f43e",
+            "name": "Get Trace",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/trace",
+            "description": "Get trace.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "a5a21e3f1874e514e31c3431dd3ac3f7",
+            "name": "Get Trace",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/trace.json",
+            "description": "Get trace.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "a51f66f5eb094f075f162f0e15cd9ad6",
+            "name": "Get Wishlist",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/wishlist",
+            "description": "Get wishlist.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "wishlistName",
+                    "description": "wishlistName",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "114dddd808a381e8f7c79904cd7be17b",
+            "name": "Post Wishlist",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/wishlist",
+            "description": "Post wishlist.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "wishlistName",
+                    "description": "wishlistName",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "ca17b5f9e919fc06854d6cfe719bd91d",
+            "name": "Post Wishlist Configure Item",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/wishlist\/configure-item",
+            "description": "Post wishlist configure item.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "orderItemWrapper",
+                    "description": "orderItemWrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "wishlistName",
+                    "description": "wishlistName",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "4485f071d80ed9d93a0412ed4fbb414f",
+            "name": "Post Wishlist Item",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/wishlist\/item",
+            "description": "Post wishlist item.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "orderItemWrapper",
+                    "description": "orderItemWrapper",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "wishlistName",
+                    "description": "wishlistName",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "a0f69d61093a07a5cdb391951bb9d58f",
+            "name": "Put Wishlist Items",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/wishlist\/items\/{itemId}",
+            "description": "Put wishlist items.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "wishlistName",
+                    "description": "wishlistName",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "quantity",
+                    "description": "quantity",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "235e60c4619c8fca38b1e3e70deaef8b",
+            "name": "Delete Wishlist Items",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/wishlist\/items\/{itemId}",
+            "description": "Delete wishlist items.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "wishlistName",
+                    "description": "wishlistName",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        },
+        {
+            "id": "7f9f036dfa21ea390484ebf62d3a8d9d",
+            "name": "Post Wishlist Items Move",
+            "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/wishlist\/items\/{itemId}\/move",
+            "description": "Post wishlist items move.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "wishlistName",
+                    "description": "wishlistName",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "itemId",
+                    "description": "itemId",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "rawModeData": ""
+        }
+    ]
+}
