@@ -1,5 +1,5 @@
 {
-    "id": "bdd91d09a79b462b6148c08013b2e7c8",
+    "id": "6f1c0e290daa24f91a06f3986730e1ed",
     "name": "Broadleaf Commerce API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "2247bcca620b63fc481c5d4f10ddb6ac",
+            "id": "3877911bcf937d4e03b44d684d1cd289",
             "name": "Get Auditevents",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/auditevents",
             "description": "Get auditevents.",
@@ -51,11 +51,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "4f800c3e0b18c43e0264c80abac4e124",
+            "id": "add1e68a37aace8e344142018991c633",
             "name": "Get Auditevents",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/auditevents.json",
             "description": "Get auditevents.",
@@ -96,11 +96,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "d80e35d34f9d68d4ae7a0ca1139d2a5b",
+            "id": "5fc479766473666a833e5b85ac8c801e",
             "name": "Get Autoconfig",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/autoconfig",
             "description": "Get autoconfig.",
@@ -119,11 +119,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "c6dbdcdbc4fc0a73d3b9aee53476f2b4",
+            "id": "76e1246148387076f256af5c7f777073",
             "name": "Get Autoconfig",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/autoconfig.json",
             "description": "Get autoconfig.",
@@ -142,11 +142,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "936546a3d493b961254a825909281109",
+            "id": "1e9a0e5bdf7c648e0c5ddda0cd8f2785",
             "name": "Get Beans",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/beans",
             "description": "Get beans.",
@@ -165,11 +165,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "b54e3b5fc694fd5ff722ea4463779f73",
+            "id": "c39687e471d3899f770d9b3e38501b84",
             "name": "Get Beans",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/beans.json",
             "description": "Get beans.",
@@ -188,11 +188,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "a6acb9ab8acab06a02e91ff8ad9be635",
+            "id": "5e0b09dac9e7655147d970aa7c6e2c44",
             "name": "Get Cart",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart",
             "description": "Get cart.",
@@ -219,11 +219,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "c7ef04f63c65d1456c0117f135361267",
+            "id": "4143c4b47a0d5f29f2f7fcf3201f7693",
             "name": "Post Cart",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart",
             "description": "Post cart.",
@@ -250,11 +250,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "8b8905dd783ecd6e11e148f911f0b9c2",
+            "id": "97b4f6487a18e46ed5cb85a4d0e8fa27",
             "name": "Post Cart Checkout",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/checkout",
             "description": "Post cart checkout.",
@@ -281,11 +281,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "0fb603d969dfaa828406e7533e1ac723",
+            "id": "272db69ce4eac448d62cdac69236f4ab",
             "name": "Post Cart Checkout Payment",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/checkout\/payment",
             "description": "Post cart checkout payment.",
@@ -319,11 +319,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "453d68e41b63a8ebb5cf49e48ef791d4",
+            "id": "3d827213784a8e1fcd94f6378dd1e6c4",
             "name": "Post Cart Checkout Payment Customerpaymentid",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/checkout\/payment\/{customerPaymentId}",
             "description": "Post cart checkout payment customerpaymentid.",
@@ -371,11 +371,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "8d44be1f617ee78da1eaea86a3bc2733",
+            "id": "5d1d2381c2d36b27c53c5ea6f0145d6a",
             "name": "Delete Cart Checkout Payment Paymentid",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/checkout\/payment\/{paymentId}",
             "description": "Delete cart checkout payment paymentid.",
@@ -409,11 +409,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "67169d62e537fa9b6fdf3a96b8a873b0",
+            "id": "855b86b30cf3be026ccb3eea5719cece",
             "name": "Put Cart Checkout Payment Paymentid Transaction",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/checkout\/payment\/{paymentId}\/transaction",
             "description": "Put cart checkout payment paymentid transaction.",
@@ -454,11 +454,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "69380793f00099fa90f03f2ff8343761",
+            "id": "ce255b4ef1eea0c3e19b0886f96bc37b",
             "name": "Get Cart Checkout Payments",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/checkout\/payments",
             "description": "Get cart checkout payments.",
@@ -485,11 +485,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "f4f7ebc9d544af422e5959ffc0bfb408",
+            "id": "b25a80affd7f5ae9a7453a07742b8269",
             "name": "Get Cart",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}",
             "description": "Get cart.",
@@ -523,11 +523,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "f8b0325c5b9d1f8899bd7ec93d8da243",
+            "id": "ebe083f46a6739baee1e94c48dc6c037",
             "name": "Put Cart Attributes",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/attributes",
             "description": "Put cart attributes.",
@@ -575,11 +575,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "fb9f2ea871c97a8a5db984ef59c0b4b7",
+            "id": "9678cd6cb817e66628dde99fb3e258f5",
             "name": "Delete Cart Attributes",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/attributes",
             "description": "Delete cart attributes.",
@@ -627,11 +627,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "1f2d54213378fb2532eed098f836ac94",
+            "id": "b33a1d30bec35aa8535ecf3110ec8931",
             "name": "Post Cart Item",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/item",
             "description": "Post cart item.",
@@ -679,11 +679,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "1fb2c5a611f77af41d3e3e249be6de6b",
+            "id": "f2049b141cc89ab33a03e5cb48cab0a1",
             "name": "Put Cart Item Attributes",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/item\/{itemId}\/attributes",
             "description": "Put cart item attributes.",
@@ -738,11 +738,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "ff597e7affcbc3d378ddbed1df7a7135",
+            "id": "32ddc9e270627167707f04400c6be461",
             "name": "Delete Cart Item Attributes",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/item\/{itemId}\/attributes",
             "description": "Delete cart item attributes.",
@@ -797,11 +797,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "2eaef14f6f593e5267fac079ed162130",
+            "id": "d4a30dd31c5c65a7084aabd4347c10f1",
             "name": "Put Cart Items",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/items\/{itemId}",
             "description": "Put cart items.",
@@ -856,11 +856,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "2698f8022d4fdd2c649d6390308f5dd3",
+            "id": "1b81a31e7c9f49ed0035ab7663fa5900",
             "name": "Delete Cart Items",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/items\/{itemId}",
             "description": "Delete cart items.",
@@ -908,11 +908,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "e37d645c0488d3cc3ef6656395b433ed",
+            "id": "d5b31659b21b7e1ad732c4dda60f3345",
             "name": "Post Cart Offer Promocode",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/offer\/{promoCode}",
             "description": "Post cart offer promocode.",
@@ -960,11 +960,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "b8e6e8bd29a335d98e99bd95ff5926b2",
+            "id": "89b867727c9ce0a03996460d75dc45c0",
             "name": "Delete Cart Offer Promocode",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/offer\/{promoCode}",
             "description": "Delete cart offer promocode.",
@@ -1012,11 +1012,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "6a17be0e829991e21a75d5426e7ba7eb",
+            "id": "3bc42c905649ead2c25438bf29a8b193",
             "name": "Delete Cart Offers",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/cart\/{cartId}\/offers",
             "description": "Delete cart offers.",
@@ -1057,11 +1057,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "efadf751d9bb34a0c4ab23489423f2af",
+            "id": "c900fdafe158b33f3a834f8531fb5dbb",
             "name": "Get Catalog Categories",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/categories",
             "description": "Get catalog categories.",
@@ -1102,11 +1102,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "6cfb712fb13fb514f9da3c075103d329",
+            "id": "b3a00ecd1f0c7cdb6579c28ff85c5457",
             "name": "Get Catalog Category",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/category",
             "description": "Get catalog category.",
@@ -1161,11 +1161,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "d888a6c24a2243564dfbd02a31c3fd85",
+            "id": "e7a26c4f950149916bb686d011e73857",
             "name": "Get Catalog Category",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/category\/{categoryId}",
             "description": "Get catalog category.",
@@ -1220,11 +1220,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "34be9afd41dbdd212a2a8145283fd7a6",
+            "id": "d9f5bf9273590ade6a6d6d566ab06d9f",
             "name": "Get Catalog Category Active Subcategories",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/category\/{categoryId}\/activeSubcategories",
             "description": "Get catalog category active subcategories.",
@@ -1265,11 +1265,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "10baca0756082e0cbc84a7ba5a027b5c",
+            "id": "2d68a4d4d8e4db6b791b41623062ad70",
             "name": "Get Catalog Category Attributes",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/category\/{categoryId}\/attributes",
             "description": "Get catalog category attributes.",
@@ -1296,11 +1296,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "6aecbdf5b1955e2047b654fed62064ca",
+            "id": "7214b7e0cae5f1349b54a9aa42caa777",
             "name": "Get Catalog Category Categories",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/category\/{categoryId}\/categories",
             "description": "Get catalog category categories.",
@@ -1348,11 +1348,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "a5b96bc16f38f07d68eacd118d298ced",
+            "id": "a1adcfac881a8ce9d064c9fa97290ccf",
             "name": "Get Catalog Category Media",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/category\/{id}\/media",
             "description": "Get catalog category media.",
@@ -1379,11 +1379,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "7628ed1446dce33be6a514fec8c7103d",
+            "id": "039f12bd4cc60ff02cac34cb776a3bf9",
             "name": "Get Catalog Product",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{id}",
             "description": "Get catalog product.",
@@ -1424,11 +1424,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "e18beb6fb6619ba33a6229fb83a5a794",
+            "id": "f0d5ba29653c10d498b2e1ca9af250ca",
             "name": "Get Catalog Product Attributes",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{productId}\/attributes",
             "description": "Get catalog product attributes.",
@@ -1455,11 +1455,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "1d48f7120f21d137cf4e8a59327775ed",
+            "id": "32691512f4bb03cd5a4582aafbcda90f",
             "name": "Get Catalog Product Categories",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{productId}\/categories",
             "description": "Get catalog product categories.",
@@ -1486,11 +1486,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "21e0e1ac7fe8ecd4c6ae9f0663ff3968",
+            "id": "74c331505782556144ff0be769498aac",
             "name": "Get Catalog Product Crosssale",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{productId}\/crosssale",
             "description": "Get catalog product crosssale.",
@@ -1531,11 +1531,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "fc5131913300f23dd317a92021298b69",
+            "id": "25b24a4f5f362fee92a8600d99980fe5",
             "name": "Get Catalog Product Default sku",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{productId}\/defaultSku",
             "description": "Get catalog product default sku.",
@@ -1562,11 +1562,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "e31a6314224c4ba393ac7abca7610791",
+            "id": "aa2813aa79f93268049bbf046c5caabd",
             "name": "Get Catalog Product Media",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{productId}\/media",
             "description": "Get catalog product media.",
@@ -1593,11 +1593,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "3694d8b88c0ade81ee475544c6070b69",
+            "id": "93ab29d21c2f64c3a54fb22d5418c340",
             "name": "Get Catalog Product Skus",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{productId}\/skus",
             "description": "Get catalog product skus.",
@@ -1624,11 +1624,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "88c3d56cfc7aded9913db93ccc00a6d2",
+            "id": "419b556875976282136466166de9154b",
             "name": "Get Catalog Product Upsale",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/product\/{productId}\/upsale",
             "description": "Get catalog product upsale.",
@@ -1669,11 +1669,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "2863cc09f0ab7fe7dd80e4c2738deeb1",
+            "id": "2d7152eec05e788fd5bcefe7f727307b",
             "name": "Get Catalog Search",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/search",
             "description": "Get catalog search.",
@@ -1728,11 +1728,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "48d2126b4dd093ebbd0f04f48763d157",
+            "id": "1dfc0c2c29ff5216a7c63a694b776587",
             "name": "Get Catalog Search Category",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/search\/category\/{categoryId}",
             "description": "Get catalog search category.",
@@ -1794,11 +1794,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "faf09c587448ce3b4bcb737626b6b958",
+            "id": "4b496f97e59c65b99797bd87d4d9539b",
             "name": "Get Catalog Sku Inventory",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/sku\/inventory",
             "description": "Get catalog sku inventory.",
@@ -1825,11 +1825,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "0248205e7db862f936ceeebfaeb4283b",
+            "id": "4d3d53e1abc05d3b39e8d0a1cd40c535",
             "name": "Get Catalog Sku Skuid",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/sku\/{skuId}",
             "description": "Get catalog sku skuid.",
@@ -1856,11 +1856,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "73d0dfd9c6bff5edd5c4e165657818ba",
+            "id": "652ad6d2904d22ae57093b05a6b4cecf",
             "name": "Get Catalog Sku Skuid Attributes",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/sku\/{skuId}\/attributes",
             "description": "Get catalog sku skuid attributes.",
@@ -1887,11 +1887,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "34b9497efbe84a5daaecb4a12e8d3e4a",
+            "id": "c7d55e90b30075b2d2df99c7e4945564",
             "name": "Get Catalog Sku Skuid Media",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/catalog\/sku\/{skuId}\/media",
             "description": "Get catalog sku skuid media.",
@@ -1918,11 +1918,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "4261505eb22f873ff3606dbf2948f64a",
+            "id": "9278ccba0e59d14fe2cc44b6b488a2b3",
             "name": "Get Configprops",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/configprops",
             "description": "Get configprops.",
@@ -1941,11 +1941,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "ce2ccd3373c8a617633f0031e502673b",
+            "id": "adc8c2c78e752995ef0f90c12a7d9f59",
             "name": "Get Configprops",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/configprops.json",
             "description": "Get configprops.",
@@ -1964,11 +1964,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "ccc6a6d11976972e6763d92d93a6f47e",
+            "id": "f4f10931e72b28994fab3b7e162108db",
             "name": "Get Customer",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer",
             "description": "Get customer.",
@@ -1995,11 +1995,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "f12b5bf55843d99936a97146ee7056a4",
+            "id": "bf9a65c57b184efb558a9fe7a4c43dec",
             "name": "Post Customer",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer",
             "description": "Post customer.",
@@ -2026,11 +2026,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "2a4fa7a6f1b281b528038a2f09cd9231",
+            "id": "f95bdaf78b4e359f67921ce3052962f7",
             "name": "Put Customer",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer",
             "description": "Put customer.",
@@ -2064,11 +2064,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "0b9a19bed5c80f7f22307ba8912371ed",
+            "id": "c4517fe195620bdaae31b665aaa99e35",
             "name": "Get Customer Address",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/address",
             "description": "Get customer address.",
@@ -2102,11 +2102,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "79fb116996d3eae5a0e601bd12347b1c",
+            "id": "69365c758c8bb298fc29110629e2ef0e",
             "name": "Put Customer Address",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/address",
             "description": "Put customer address.",
@@ -2140,11 +2140,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "0cce89ada0045d0e1039bfbdd526410b",
+            "id": "fb7c14b1b145f8cee619ac2eee05ec01",
             "name": "Put Customer Address Addressid",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/address\/{addressId}",
             "description": "Put customer address addressid.",
@@ -2185,11 +2185,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "d67148870ba8ae0adae56f7776f4bcb2",
+            "id": "5e3c5979e01076b73e606865712712cd",
             "name": "Delete Customer Address Addressname",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/address\/{addressName}",
             "description": "Delete customer address addressname.",
@@ -2223,11 +2223,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "1f00e3ef19193a0f8614486085946504",
+            "id": "f6ec6fdabb2737a7d3e4a3be065d4477",
             "name": "Get Customer Addresses",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/addresses",
             "description": "Get customer addresses.",
@@ -2254,11 +2254,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "4285e090051795ecf8ca3aba265897cd",
+            "id": "5a0c65954f0742b60f19ca2d4cd1625d",
             "name": "Delete Customer Addresses",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/addresses",
             "description": "Delete customer addresses.",
@@ -2285,11 +2285,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "aac2acbea8b3cf8120ec4f1209bdc8c9",
+            "id": "e70e3bcca3c76cb1955184977b7d450a",
             "name": "Put Customer Attribute",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/attribute",
             "description": "Put customer attribute.",
@@ -2323,11 +2323,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "554c0ca7dcd856a610dbc3f72b74ca01",
+            "id": "47f2babac7eb3b9869376e3911af855d",
             "name": "Delete Customer Attribute Attributename",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/attribute\/{attributeName}",
             "description": "Delete customer attribute attributename.",
@@ -2361,11 +2361,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "1fb6d7f3fb58564bb615c4905ecb30b2",
+            "id": "431c91021aeb058f59fa3821809553d5",
             "name": "Delete Customer Attributes",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/attributes",
             "description": "Delete customer attributes.",
@@ -2392,11 +2392,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "3e26e48a9f8e45dc3340db1e49f65bd4",
+            "id": "054e42c84060a946c811e7e12743368a",
             "name": "Post Customer Password",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/password",
             "description": "Post customer password.",
@@ -2423,11 +2423,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "92afa27b6dcdb3f9ae281f939093c3ce",
+            "id": "6f0ab7881f5b104cd8bed0daaef22833",
             "name": "Get Customer Payment",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/payment",
             "description": "Get customer payment.",
@@ -2461,11 +2461,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "743d63069c1baac65f9bb38bf18ca605",
+            "id": "afa1683439495c417416867c7a12d641",
             "name": "Post Customer Payment",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/payment",
             "description": "Post customer payment.",
@@ -2499,11 +2499,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "26b1eb8c369f9bd854d1e5aa659524dd",
+            "id": "ad2443c6356c0f7e3ca52f47b43b6009",
             "name": "Put Customer Payment Paymentid",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/payment\/{paymentId}",
             "description": "Put customer payment paymentid.",
@@ -2544,11 +2544,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "4dc61746dc817a76ceb648bcfd8f5549",
+            "id": "e036fe56490056e23231cf847af93ffa",
             "name": "Delete Customer Payment Paymentid",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/payment\/{paymentId}",
             "description": "Delete customer payment paymentid.",
@@ -2582,11 +2582,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "af92d90f35a0db78a6acb229746ee555",
+            "id": "57b6681cb4a798f370e1b93fde942143",
             "name": "Get Customer Payments",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/payments",
             "description": "Get customer payments.",
@@ -2613,11 +2613,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "bd649a1e9aaf0da5aeee2d2202ae9036",
+            "id": "1bb7e6481ed4e4cffdcee7e0c2a99cc3",
             "name": "Delete Customer Payments",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/customer\/payments",
             "description": "Delete customer payments.",
@@ -2644,11 +2644,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "28c61f712e8fae2e2230d468566498ed",
+            "id": "23239cb501d354bdabb9868dac9f8dfa",
             "name": "Get Docsreload",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/docsreload",
             "description": "Get docsreload.",
@@ -2667,11 +2667,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "089675145b9df695cd7b881e87dcb1ff",
+            "id": "c7ed85a3eac024ee1c7dd7ecb96b7279",
             "name": "Head Docsreload",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/docsreload",
             "description": "Head docsreload.",
@@ -2690,11 +2690,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "658dfcb8bb5f713574b57ea9aa380a77",
+            "id": "c26f2fed6f1f6b3b44f96077de681ee3",
             "name": "Post Docsreload",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/docsreload",
             "description": "Post docsreload.",
@@ -2713,11 +2713,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "3b9008e8e8ee1be055f8d5184ca34a16",
+            "id": "cdd98dabb917a12ddfda1103a91bcc17",
             "name": "Put Docsreload",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/docsreload",
             "description": "Put docsreload.",
@@ -2736,11 +2736,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "bf1aad55201b2ea091251d5e9d080802",
+            "id": "aa156757aabe5914ba99ba1c1a409ae3",
             "name": "Delete Docsreload",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/docsreload",
             "description": "Delete docsreload.",
@@ -2759,11 +2759,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "7c27fd599858d0c2f4c3fb382b24fb95",
+            "id": "ca8a96cacb0aa4f5f77ed3c9034af27b",
             "name": "Options Docsreload",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/docsreload",
             "description": "Options docsreload.",
@@ -2782,11 +2782,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "af071da7759209c9a9f6e3477c8a522b",
+            "id": "2afacf8019b9619da5e298f9bf245839",
             "name": "Patch Docsreload",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/docsreload",
             "description": "Patch docsreload.",
@@ -2805,11 +2805,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "d83598ec3ebd34e187bc637d528b37ce",
+            "id": "6b80422efb54efd2df66a11ae1f380d7",
             "name": "Get Dump",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/dump",
             "description": "Get dump.",
@@ -2828,11 +2828,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "c09fccca75855f64301d3a4d443c7812",
+            "id": "eb20a7c33ea66cc4a2bb1b60f1ac9c53",
             "name": "Get Dump",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/dump.json",
             "description": "Get dump.",
@@ -2851,11 +2851,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "971b39c6b006b63c21b9ee8d2ae94846",
+            "id": "1b68f12024efbf6ab9ab0207f9863f59",
             "name": "Get Env",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/env",
             "description": "Get env.",
@@ -2874,11 +2874,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "ab4c5a15f82f86000aca085f76be625d",
+            "id": "2d852fdb2a2dbf14e3ff7ba5b807b0c5",
             "name": "Get Env",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/env.json",
             "description": "Get env.",
@@ -2897,11 +2897,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "2d76b40eab6b673637904c55ff2c0d2e",
+            "id": "68b3e755e958ba2a2cafb9a4aaefe9e9",
             "name": "Get Env Name",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/env\/{name}",
             "description": "Get env name.",
@@ -2928,11 +2928,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "f438a64f863355f51d8dd810c44ecc89",
+            "id": "13b912d844ba24fc82e158e5b4db8b99",
             "name": "Get Error",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/error",
             "description": "Get error.",
@@ -2951,11 +2951,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "7228f556ce7a38465ea915a58b03d539",
+            "id": "558f2f1162a3a366d9190d16232ad37d",
             "name": "Head Error",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/error",
             "description": "Head error.",
@@ -2974,11 +2974,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "73420781b2fea8a4a5dbbf63924c8c48",
+            "id": "b500f6b98ff913e3af02dfde496bf023",
             "name": "Post Error",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/error",
             "description": "Post error.",
@@ -2997,11 +2997,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "6a4eb5edbd1fb29d1147dc2ddb3a18ce",
+            "id": "e754fb31c70a1cafcaad20ecf7939a86",
             "name": "Put Error",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/error",
             "description": "Put error.",
@@ -3020,11 +3020,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "ab8611071412be24eb8eeda60962b85a",
+            "id": "0fa0cb25355bcc0e62d0dedef47ab612",
             "name": "Delete Error",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/error",
             "description": "Delete error.",
@@ -3043,11 +3043,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "aaacd961028c97b9063c2908730d6d1c",
+            "id": "0a7af996fb82e0db502c61ec2e64a489",
             "name": "Options Error",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/error",
             "description": "Options error.",
@@ -3066,11 +3066,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "b9c88db82f3d2fab3966abb5c074117f",
+            "id": "dfa8e5a727d71537a91b1645e1be897b",
             "name": "Patch Error",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/error",
             "description": "Patch error.",
@@ -3089,11 +3089,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "91a061041930a886fc45713bca10b86f",
+            "id": "c0289cffe5e37bf369300e14b86a19ff",
             "name": "Get Health",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/health",
             "description": "Get health.",
@@ -3112,11 +3112,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "b2bb4c4d9578f014ddbda4353cd31344",
+            "id": "ad84f7bb600543bda130711ecb2d0d53",
             "name": "Get Health",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/health.json",
             "description": "Get health.",
@@ -3135,11 +3135,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "7060fd2e3677fd208e7f37085fd647f7",
+            "id": "5072c5c961345235c7bfefd9d086bbb4",
             "name": "Get Heapdump",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/heapdump",
             "description": "Get heapdump.",
@@ -3166,11 +3166,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "d1af4bb452c4bcd492e2b70dd06f1b1a",
+            "id": "be198714056ea4c23215598f60abe205",
             "name": "Get Heapdump",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/heapdump.json",
             "description": "Get heapdump.",
@@ -3197,11 +3197,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "135903d0eed1aa00bce3944b61b4b181",
+            "id": "7e485cae3273401e0393bd1d8193b54a",
             "name": "Get Info",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/info",
             "description": "Get info.",
@@ -3220,11 +3220,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "089f5b63dcff2c3294d9438193934290",
+            "id": "6af7c8566efb463fd846e5695a6e5b7d",
             "name": "Get Info",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/info.json",
             "description": "Get info.",
@@ -3243,11 +3243,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "c759c65122198a76a1aa3627799f704a",
+            "id": "a03eb689e683569f9cd054aec781a957",
             "name": "Get Logfile",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/logfile",
             "description": "Get logfile.",
@@ -3266,11 +3266,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "1fcb7d26f7f84217cfeb9549e5c975d9",
+            "id": "7004ac1b37845956f20955b40e75edc0",
             "name": "Head Logfile",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/logfile",
             "description": "Head logfile.",
@@ -3289,11 +3289,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "7e00617598c1ed20865ca79cf71fca3b",
+            "id": "91ffed668dbd2130802207d0266c61be",
             "name": "Get Logfile",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/logfile.json",
             "description": "Get logfile.",
@@ -3312,11 +3312,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "360220f1d295c45a8603a1ecfb5fe9d8",
+            "id": "b207bb9c50ab34695d7fdac3ea8452d2",
             "name": "Head Logfile",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/logfile.json",
             "description": "Head logfile.",
@@ -3335,11 +3335,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "bfe924f369d2a3bc5b0f6c3cad387786",
+            "id": "1c7ae1f6d58d4d3b8c42f3b9b035171d",
             "name": "Get Loggers",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/loggers",
             "description": "Get loggers.",
@@ -3358,11 +3358,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "a52a735d46275f5f4ebd1ee2f97dc506",
+            "id": "031cac67ec8c886734115abc9d5601e9",
             "name": "Get Loggers",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/loggers.json",
             "description": "Get loggers.",
@@ -3381,11 +3381,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "a2d544d9cf08170a6aeb3de9bd6dddc3",
+            "id": "055fa56d1002886238c1a084e3c9986d",
             "name": "Get Loggers Name",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/loggers\/{name}",
             "description": "Get loggers name.",
@@ -3412,11 +3412,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "80344fd29df4979031298a39e7a5f1dc",
+            "id": "09e0866aa47c8147b6e63327154d24a9",
             "name": "Post Loggers Name",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/loggers\/{name}",
             "description": "Post loggers name.",
@@ -3450,11 +3450,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "c5dd8cfc2634feb09db2633ad4cb81d2",
+            "id": "72953f503b757cbc09f2d6e9a1d4ed48",
             "name": "Get Mappings",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/mappings",
             "description": "Get mappings.",
@@ -3473,11 +3473,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "618c9c500fbb55cc7463a2b2db6153e6",
+            "id": "afd01bf4a03982e61814717b5a33f4ae",
             "name": "Get Mappings",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/mappings.json",
             "description": "Get mappings.",
@@ -3496,11 +3496,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "b09529a657260f85ebd8c5ba5c3b75ce",
+            "id": "e7f455b3f90f0ac298992888a39c243b",
             "name": "Get Metrics",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/metrics",
             "description": "Get metrics.",
@@ -3519,11 +3519,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "5fecea6af1657fb93fa5acfc74642364",
+            "id": "ce517a95a908e166696352e2694560bf",
             "name": "Get Metrics",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/metrics.json",
             "description": "Get metrics.",
@@ -3542,11 +3542,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "984b3ec11743353af1bdd80856a99be5",
+            "id": "77f2aa14c32c180fecee58e165103d6e",
             "name": "Get Metrics Name",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/metrics\/{name}",
             "description": "Get metrics name.",
@@ -3573,11 +3573,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "1881a9ef80d5c24ab0cd3444bc63c031",
+            "id": "2f5500b5876b0e9663460e2a27de7f4c",
             "name": "Get Orders",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/orders",
             "description": "Get orders.",
@@ -3611,11 +3611,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "acdc42a2bd44e58ae2343e0177445df4",
+            "id": "c2cae61251e524a38c14f3c3c0afc14f",
             "name": "Get Orders Summary",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/orders\/summary",
             "description": "Get orders summary.",
@@ -3634,11 +3634,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "d443b09ef7f3c9e8cd09b36786c4163c",
+            "id": "8010e6f3aa3a827e77fdd308496bb152",
             "name": "Get Orders Orderid",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/orders\/{orderId}",
             "description": "Get orders orderid.",
@@ -3665,11 +3665,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "1b49623dd510ae50c5160eebc254ef5f",
+            "id": "5dbd86a1c77e5eec7504ce01921f5a6f",
             "name": "Get Preview **",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/preview\/**",
             "description": "Get preview **.",
@@ -3688,11 +3688,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "493e612a4f635c73aeb52e137b16a9bd",
+            "id": "ac6ca8b5298ccfdd7bec62ddcb0c6099",
             "name": "Head Preview **",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/preview\/**",
             "description": "Head preview **.",
@@ -3711,11 +3711,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "3c9d5bc0f0951582b1c07774bfe64b66",
+            "id": "89a0cb05ff7e9f87af34615213d7a4bf",
             "name": "Post Preview **",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/preview\/**",
             "description": "Post preview **.",
@@ -3734,11 +3734,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "5eac31dd1a6cfb51ef44bd3a84cdc63c",
+            "id": "2041466b69f9a6ad889f30fb44fe594c",
             "name": "Put Preview **",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/preview\/**",
             "description": "Put preview **.",
@@ -3757,11 +3757,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "da1b7b2bb70411625d5a149813d96eb3",
+            "id": "a137b19154a5529caf8d88230815eeb6",
             "name": "Delete Preview **",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/preview\/**",
             "description": "Delete preview **.",
@@ -3780,11 +3780,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "6eaece5998df560a3c790d1dae582cee",
+            "id": "3b75de0e206011903c7a210e897cd2a7",
             "name": "Options Preview **",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/preview\/**",
             "description": "Options preview **.",
@@ -3803,11 +3803,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "b5d3cb2af0b70396a8b9f1899ed791e8",
+            "id": "bffe37c8aff1429288c60bd72b234a12",
             "name": "Patch Preview **",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/preview\/**",
             "description": "Patch preview **.",
@@ -3826,11 +3826,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "1d70b7b682d07dc45360697231f12d05",
+            "id": "9801f3c174be2471feb90f66acb58dff",
             "name": "Get Promotion Messages",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/promotion-messages\/{productId}",
             "description": "Get promotion messages.",
@@ -3857,11 +3857,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "dfb4642e82270ade5c7cb620505c4c81",
+            "id": "bd22583e409f5eebb5c5f606cc327c2c",
             "name": "Get Ratings",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/ratings\/{itemId}",
             "description": "Get ratings.",
@@ -3895,11 +3895,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "7c7de5d8dd61d0b596ca5bf27c7df739",
+            "id": "4fd20c03de7c5692e94527ed7905c181",
             "name": "Head Ratings",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/ratings\/{itemId}",
             "description": "Head ratings.",
@@ -3933,11 +3933,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "c1be63ed5c573062661a13482cd1aca6",
+            "id": "81c6acd2f163f0a8d6911fa3c591b2be",
             "name": "Post Ratings",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/ratings\/{itemId}",
             "description": "Post ratings.",
@@ -3971,11 +3971,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "3a77577533c041e8469f1d4910a61a30",
+            "id": "d355844e1c6a2bd457feb5ef5675fbe0",
             "name": "Put Ratings",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/ratings\/{itemId}",
             "description": "Put ratings.",
@@ -4009,11 +4009,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "d17333da1d3c62e6b502a433d1a5340e",
+            "id": "e969dd37b7b739b666d8d76d542c56b2",
             "name": "Delete Ratings",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/ratings\/{itemId}",
             "description": "Delete ratings.",
@@ -4047,11 +4047,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "2c6a2d6d6adfd2a5d54310aaa2f3f310",
+            "id": "7688d0028f459bcb29f173c05dd4b14b",
             "name": "Options Ratings",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/ratings\/{itemId}",
             "description": "Options ratings.",
@@ -4085,11 +4085,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "9cf200368f15d884e01c875613da6593",
+            "id": "b78b5065044f8244d72f2d913f2eb87d",
             "name": "Patch Ratings",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/ratings\/{itemId}",
             "description": "Patch ratings.",
@@ -4123,11 +4123,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "6de38016fcbe19b5135748c0b03c4de0",
+            "id": "5617e1a5af016939e7142084e50075b2",
             "name": "Get Related Products",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/related-products",
             "description": "Get related products.",
@@ -4203,11 +4203,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "aa890e1f86915a48caff62f17d5c3edd",
+            "id": "d1c0a8012ad5139c7696647c27638abb",
             "name": "Get Shipping Options",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/options",
             "description": "Get shipping options.",
@@ -4234,11 +4234,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "7190087f83f519ab3af24bbdf1153951",
+            "id": "455461fad97b732ef68b1ad319c0d1fe",
             "name": "Get Shipping Estimate",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/estimate",
             "description": "Get shipping estimate.",
@@ -4265,11 +4265,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "f963e5b5228017a19fe90202eaa668f9",
+            "id": "289c28b514bd171a8c618c91311fc4c8",
             "name": "Head Shipping Estimate",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/estimate",
             "description": "Head shipping estimate.",
@@ -4296,11 +4296,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "29ca315a82b27876c5d96fc82454a06c",
+            "id": "7cc2d17bb9f1a2a1e120ad7b53f4db5e",
             "name": "Post Shipping Estimate",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/estimate",
             "description": "Post shipping estimate.",
@@ -4327,11 +4327,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "56241e661f524cb79fdbb24b91a2d44e",
+            "id": "f6f9a52983b861b3aa65a4d3ca0adcbc",
             "name": "Put Shipping Estimate",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/estimate",
             "description": "Put shipping estimate.",
@@ -4358,11 +4358,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "aaa996cac3d216d53c565005ce3e9d9c",
+            "id": "a4e40bfcc56327e0ef9c5e8803402eb3",
             "name": "Delete Shipping Estimate",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/estimate",
             "description": "Delete shipping estimate.",
@@ -4389,11 +4389,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "aa1e16a739cabbb3e4f28f93a41a4102",
+            "id": "aee56851138a77fe821adf521a01d614",
             "name": "Options Shipping Estimate",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/estimate",
             "description": "Options shipping estimate.",
@@ -4420,11 +4420,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "0513ca9374dcea24062ccfc5206a8b71",
+            "id": "b0deb33b39a474522acb7a252433b3fa",
             "name": "Patch Shipping Estimate",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/estimate",
             "description": "Patch shipping estimate.",
@@ -4451,11 +4451,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "96fab03c9bf1888ec7e2a028a593b43f",
+            "id": "6128133940b09acdcb4e577b8728359d",
             "name": "Post Shipping Group",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/group",
             "description": "Post shipping group.",
@@ -4496,11 +4496,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "237f228e43790af07e6eee2ded4ae954",
+            "id": "f066aaaea56fe00efccbf81ba2e3a9a8",
             "name": "Delete Shipping Group Fulfillmentgroupid",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/group\/{fulfillmentGroupId}",
             "description": "Delete shipping group fulfillmentgroupid.",
@@ -4534,11 +4534,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "f3a5aca54b092a62fe624abf15201b32",
+            "id": "a975b3d6c4b3c8ee89ed5867934b1ecf",
             "name": "Patch Shipping Group Fulfillmentgroupid",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/group\/{fulfillmentGroupId}",
             "description": "Patch shipping group fulfillmentgroupid.",
@@ -4586,11 +4586,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "93940a91533fce2cdad6d1fd5ec2b6b0",
+            "id": "145128d6c938b55093c58d39b5265162",
             "name": "Post Shipping Group Fulfillmentgroupid Item",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/group\/{fulfillmentGroupId}\/item",
             "description": "Post shipping group fulfillmentgroupid item.",
@@ -4638,11 +4638,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "4d83eab011c3efc08f09b225260d74cd",
+            "id": "4a6730311da8c38374b06bc9093c231e",
             "name": "Delete Shipping Group Fulfillmentgroupid Item",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/group\/{fulfillmentGroupId}\/item\/{itemId}",
             "description": "Delete shipping group fulfillmentgroupid item.",
@@ -4683,11 +4683,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "d8affbbc5c6c036de467dc1566bd4763",
+            "id": "7f968ac7aaa4c7ca06330ede0aaa48b0",
             "name": "Put Shipping Group Fulfillmentgroupid Option Fulfillmentoptionid",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/group\/{fulfillmentGroupId}\/option\/{fulfillmentOptionId}",
             "description": "Put shipping group fulfillmentgroupid option fulfillmentoptionid.",
@@ -4735,11 +4735,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "db1beeaaead06a93deea4b68a5f71dfd",
+            "id": "08d4656e5368ef6337763172974d4abe",
             "name": "Get Shipping Groups",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/groups",
             "description": "Get shipping groups.",
@@ -4766,11 +4766,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "0134c4fdb52f8041396c40441b4ff5a7",
+            "id": "f40e3ff254707bb42c8e0020ab92c369",
             "name": "Delete Shipping Groups",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/groups",
             "description": "Delete shipping groups.",
@@ -4804,11 +4804,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "9eb0e780b18a0a0bf7266039f6dfd98a",
+            "id": "ef765af10d0472c885eb2b21f5de5e38",
             "name": "Put Shipping Fulfillmentgroupid Address",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/shipping\/{cartId}\/{fulfillmentGroupId}\/address",
             "description": "Put shipping fulfillmentgroupid address.",
@@ -4849,11 +4849,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "bd9156322093686e77a80e976823f43e",
+            "id": "30b81088b675fbaaa6aeb56d81fc05a7",
             "name": "Get Trace",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/trace",
             "description": "Get trace.",
@@ -4872,11 +4872,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "a5a21e3f1874e514e31c3431dd3ac3f7",
+            "id": "fbabce2ee69d3f9301f0a0aeb2505d1a",
             "name": "Get Trace",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/trace.json",
             "description": "Get trace.",
@@ -4895,11 +4895,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "a51f66f5eb094f075f162f0e15cd9ad6",
+            "id": "01574696876ca6203e2fc77b14375178",
             "name": "Get Wishlist",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/wishlist",
             "description": "Get wishlist.",
@@ -4926,11 +4926,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "114dddd808a381e8f7c79904cd7be17b",
+            "id": "1d76411a7e488729a80654a148a05057",
             "name": "Post Wishlist",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/wishlist",
             "description": "Post wishlist.",
@@ -4957,11 +4957,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "ca17b5f9e919fc06854d6cfe719bd91d",
+            "id": "b64b86515a2b46c710f79bbe77176210",
             "name": "Post Wishlist Configure Item",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/wishlist\/configure-item",
             "description": "Post wishlist configure item.",
@@ -4995,11 +4995,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "4485f071d80ed9d93a0412ed4fbb414f",
+            "id": "955f6524c63b962d7f3f0a5d1a2449bd",
             "name": "Post Wishlist Item",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/wishlist\/item",
             "description": "Post wishlist item.",
@@ -5033,11 +5033,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "a0f69d61093a07a5cdb391951bb9d58f",
+            "id": "2023d7aff499a116dbcfdfd62ebf4f67",
             "name": "Put Wishlist Items",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/wishlist\/items\/{itemId}",
             "description": "Put wishlist items.",
@@ -5078,11 +5078,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "235e60c4619c8fca38b1e3e70deaef8b",
+            "id": "eecc3216560695b1014b20cfc216239b",
             "name": "Delete Wishlist Items",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/wishlist\/items\/{itemId}",
             "description": "Delete wishlist items.",
@@ -5116,11 +5116,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         },
         {
-            "id": "7f9f036dfa21ea390484ebf62d3a8d9d",
+            "id": "f27f1e4ffa95dab30be88f8464477707",
             "name": "Post Wishlist Items Move",
             "url": "httpsdemo.broadleafcommerce.org\/api\/v1\/wishlist\/items\/{itemId}\/move",
             "description": "Post wishlist items move.",
@@ -5154,7 +5154,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bdd91d09a79b462b6148c08013b2e7c8",
+            "collectionId": "6f1c0e290daa24f91a06f3986730e1ed",
             "rawModeData": ""
         }
     ]
